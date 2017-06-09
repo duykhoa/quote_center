@@ -1,3 +1,6 @@
 bower_components
 functions
 build
+.DS_Store
+
+.byebug_history

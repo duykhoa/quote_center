@@ -24,7 +24,7 @@
 
     <iron-ajax
       auto
-      url="/Jimrohnquotes.json"
+      url="/data/JimRohn.json"
       method="GET"
       handle-as="json"
       last-response={{quotes}}
@@ -42,6 +42,9 @@
       static get is() { return 'quote_center-app'; }
       static get properties() {
         return {
+          quotes: {
+            type: Array
+          }
         };
       }
     }
