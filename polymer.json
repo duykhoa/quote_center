@@ -1,0 +1,14 @@
+{
+  "lint": {
+    "rules": [
+      "polymer-2"
+    ]
+  },
+  "sources": [
+    "src/**/*",
+    "assets/**/*",
+    "Jimrohnquotes.json",
+    "bower.json",
+    "public/assets/**/*"
+  ]
+}

@@ -1,0 +1,51 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+<!--<link rel="import" href="../../bower_components/polymer/lib/elements/dom-if.html">-->
+<!--<link rel="import" href="../../bower_components/polymer/lib/elements/dom-repeat.html">-->
+
+<dom-module id="quote_center-app">
+  <template>
+    <style>
+      :host {
+        display: block;
+        font: 13px Courier, sans-serif;
+        width: 50%;
+        text-align: justify;
+        line-height: 1.5em;
+      }
+
+      @media (max-width: 1024px) {
+        :host {
+        width: 100%;
+        }
+      }
+
+    </style>
+
+    <iron-ajax
+      auto
+      url="/Jimrohnquotes.json"
+      method="GET"
+      handle-as="json"
+      last-response={{quotes}}
+    ></iron-ajax>
+
+    <template is="dom-repeat" items={{quotes.quotes}}>
+      <div>{{item.body}}</div>
+    </template>
+
+  </template>
+
+  <script>
+    /** @polymerElement */
+    class Quote_centerApp extends Polymer.Element {
+      static get is() { return 'quote_center-app'; }
+      static get properties() {
+        return {
+        };
+      }
+    }
+
+    window.customElements.define(Quote_centerApp.is, Quote_centerApp);
+  </script>
+</dom-module>
