@@ -1,5 +1,7 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
 <link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import"
+href="../../bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.html">
 <!--<link rel="import" href="../../bower_components/polymer/lib/elements/dom-if.html">-->
 <!--<link rel="import" href="../../bower_components/polymer/lib/elements/dom-repeat.html">-->
 
@@ -8,15 +10,26 @@
     <style>
       :host {
         display: block;
-        font: 13px Courier, sans-serif;
+        font: 1.1em Courier, sans-serif;
         width: 50%;
         text-align: justify;
         line-height: 1.5em;
+        text-shadow: -1px 0 1px #eaeaea;
+      }
+
+      div {
+        padding: 8px 0;
+      }
+
+      footer {
+        opacity: 0.4;
+        font-size: 0.8em;
+        box-shadow: 0 -1px 0 #888;
       }
 
       @media (max-width: 1024px) {
         :host {
-        width: 100%;
+          width: 100%;
         }
       }
 
@@ -30,9 +43,22 @@
       last-response={{quotes}}
     ></iron-ajax>
 
-    <template is="dom-repeat" items={{quotes.quotes}}>
+    <app-indexeddb-mirror
+      key="cara-iu-vau"
+      data="{{quotes}}"
+      persisted-data="{{cacheQuotes}}"
+      log=true
+    >
+    </app-indexeddb-mirror>
+
+    <template is="dom-repeat" items={{cacheQuotes.quotes}}>
       <div>{{item.body}}</div>
     </template>
+
+    <footer>
+      Jim Rohn quotes from
+      <a href="https://favqs.com/api">favqs</a>
+    </footer>
 
   </template>
 
