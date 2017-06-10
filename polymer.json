@@ -10,6 +10,13 @@
     "data/**/*",
     "Jimrohnquotes.json",
     "bower.json",
-    "public/assets/**/*"
+    "public/assets/**/*",
+    "manifest.json"
+  ],
+  "extraDependencies": [
+    "bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror-worker.js",
+    "bower_components/app-storage/app-indexeddb-mirror/common-worker-scope.js",
+    "bower_components/webcomponentsjs/webcomponents-lite.js",
+    "manifest.json"
   ]
 }

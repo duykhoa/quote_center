@@ -1,6 +1,9 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
 <link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
 <link rel="import" href="../../bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.html">
+<link rel="import" href="../../bower_components/iron-swipeable-container/iron-swipeable-container.html">
+
 <!--<link rel="import" href="../../bower_components/polymer/lib/elements/dom-if.html">-->
 <!--<link rel="import" href="../../bower_components/polymer/lib/elements/dom-repeat.html">-->
 
@@ -11,29 +14,54 @@
         display: block;
         font: 1.1em Courier, sans-serif;
         width: 50%;
-        text-align: justify;
         line-height: 1.5em;
         text-shadow: -1px 0 1px #d6d5d5, -2px 0 0 #eaeaea;
         color: #505050;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        cursor: default;
       }
 
       div {
         padding: 8px 0;
       }
 
-      footer {
+      header, footer {
         opacity: 0.4;
         font-size: 0.8em;
         box-shadow: 0 -1px 0 #888;
+      }
+
+      header {
+        box-shadow: 0 1px 0 #888;
       }
 
       @media (max-width: 1024px) {
         :host {
           width: 100%;
         }
+
+        div {
+          height: 70vh;
+          padding: 0 3vw;
+          margin-bottom: 1vh;
+          @apply(--layout);
+          @apply(--layout-center);
+          @apply(--layout-center-justified);
+          box-shadow: -1px 0 0px #888,
+                      1px 0 0px #888,
+                      0 -1px 0px #888,
+                      0 1px 0px #888;
+        }
       }
 
     </style>
+
+    <header>
+      Swipe right, left for like/dislike, just for fun.
+    </header>
 
     <iron-ajax
       auto
@@ -51,9 +79,11 @@
     >
     </app-indexeddb-mirror>
 
-    <template is="dom-repeat" items={{cacheQuotes.quotes}}>
-      <div>{{item.body}}</div>
-    </template>
+    <iron-swipeable-container swipe-style="curve" width-ratio="1">
+      <template is="dom-repeat" items={{cacheQuotes.quotes}}>
+        <div>{{item.body}}</div>
+      </template>
+    </iron-swipeable-container>
 
     <footer>
       Jim Rohn quotes from
