@@ -72,7 +72,7 @@
     ></iron-ajax>
 
     <app-indexeddb-mirror
-      key="cara-iu-vau"
+      key="{{appStorageKey}}"
       data="{{quotes}}"
       persisted-data="{{cacheQuotes}}"
       log=true
@@ -100,6 +100,10 @@
         return {
           quotes: {
             type: Array
+          },
+          appStorageKey: {
+            type: String,
+            value: "cara-iu-vau"
           }
         };
       }
