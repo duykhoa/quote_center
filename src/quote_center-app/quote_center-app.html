@@ -51,7 +51,7 @@
       <template is="dom-repeat" items="{{pages}}">
         <ck-quotepage
           app-storage-key="{{storageKey(item.storageKey)}}"
-          data-url="{{dataUrl(item.dataUrl)}}"
+          data-url$="{{dataUrl(item.dataUrl)}}"
         ></ck-quotepage>
       </template>
     </iron-pages>
