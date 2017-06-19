@@ -6,7 +6,8 @@
     "iron-ajax": "PolymerElements/iron-ajax#^2.0.0",
     "app-storage": "PolymerElements/app-storage#^2.0.0",
     "iron-swipeable-container": "PolymerElements/iron-swipeable-container#^1.0.3",
-    "iron-flex-layout": "PolymerElements/iron-flex-layout"
+    "iron-flex-layout": "PolymerElements/iron-flex-layout",
+    "paper-tabs": "PolymerElements/paper-tabs#^2.0.0"
   },
   "devDependencies": {
     "web-component-tester": "^6.0.0-prerelease.5",

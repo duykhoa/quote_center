@@ -3,6 +3,7 @@
 <link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
 <link rel="import" href="../../bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.html">
 <link rel="import" href="../../bower_components/iron-swipeable-container/iron-swipeable-container.html">
+<link rel="import" href="../../bower_components/paper-tabs/paper-tabs.html">
 
 <!--<link rel="import" href="../../bower_components/polymer/lib/elements/dom-if.html">-->
 <!--<link rel="import" href="../../bower_components/polymer/lib/elements/dom-repeat.html">-->
@@ -22,6 +23,13 @@
         -webkit-user-select: none;
         user-select: none;
         cursor: default;
+
+        --paper-tabs-content: {
+          background: var(--google-grey-100);
+          color: var(--paper-indigo-a400);
+        }
+
+        --paper-tabs-selection-bar-color: var(--google-green-500);
       }
 
       div {
@@ -29,7 +37,6 @@
       }
 
       header, footer {
-        opacity: 0.4;
         font-size: 0.8em;
         box-shadow: 0 -1px 0 #888;
       }
@@ -60,12 +67,15 @@
     </style>
 
     <header>
-      Swipe for next quote!
+      <paper-tabs selected={{selected}} noink>
+        <paper-tab>JimRohn</paper-tab>
+        <paper-tab>JimRohn Custom</paper-tab>
+      </paper-tabs>
     </header>
 
     <iron-ajax
       auto
-      url="/data/JimRohn.json"
+      url="{{dataUrl}}"
       method="GET"
       handle-as="json"
       last-response={{quotes}}
@@ -104,8 +114,31 @@
           appStorageKey: {
             type: String,
             value: "cara-iu-vau"
+          },
+          dataFiles: {
+            type: Array,
+            value: [
+              "JimRohn.json", "bestlife.json"
+            ]
+          },
+          selected: {
+            type: Number,
+            value: 0,
+            observer: "_selectedChanged"
+          },
+
+          dataUrl: {
+            type: String
           }
         };
+      }
+
+      _selectedChanged() {
+        this._calculateDataUrl();
+      }
+
+      _calculateDataUrl() {
+        this.dataUrl = "/data/" + this.dataFiles[this.selected];
       }
     }
 
