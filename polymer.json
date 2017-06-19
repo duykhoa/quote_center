@@ -8,7 +8,6 @@
     "src/**/*",
     "assets/**/*",
     "data/**/*",
-    "Jimrohnquotes.json",
     "bower.json",
     "public/assets/**/*",
     "manifest.json"
