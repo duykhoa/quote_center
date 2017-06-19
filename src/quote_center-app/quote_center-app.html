@@ -1,9 +1,8 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
-<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
-<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
-<link rel="import" href="../../bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.html">
-<link rel="import" href="../../bower_components/iron-swipeable-container/iron-swipeable-container.html">
 <link rel="import" href="../../bower_components/paper-tabs/paper-tabs.html">
+<link rel="import" href="../../bower_components/iron-pages/iron-pages.html">
+
+<link rel="import" href="../ck-quotepage/ck-quotepage.html">
 
 <!--<link rel="import" href="../../bower_components/polymer/lib/elements/dom-if.html">-->
 <!--<link rel="import" href="../../bower_components/polymer/lib/elements/dom-repeat.html">-->
@@ -12,11 +11,9 @@
   <template>
     <style>
       :host {
-        display: block;
         font: 1.1em Courier, sans-serif;
-        width: 50%;
-        line-height: 1.5em;
         text-shadow: -1px 0 1px #d6d5d5, -2px 0 0 #eaeaea;
+        line-height: 1.5em;
         color: #505050;
         -moz-user-select: none;
         -ms-user-select: none;
@@ -26,41 +23,17 @@
 
         --paper-tabs-content: {
           background: var(--google-grey-100);
-          color: var(--paper-indigo-a400);
+          color: var(--paper-indigo-a200);
         }
 
         --paper-tabs-selection-bar-color: var(--google-green-500);
+        width: 50%;
       }
 
-      div {
-        padding: 8px 0;
-      }
-
-      header, footer {
-        font-size: 0.8em;
-        box-shadow: 0 -1px 0 #888;
-      }
-
-      header {
-        box-shadow: 0 1px 0 #888;
-      }
 
       @media (max-width: 1024px) {
         :host {
           width: 100%;
-        }
-
-        div {
-          height: 70vh;
-          padding: 0 3vw;
-          margin-bottom: 1vh;
-          @apply(--layout);
-          @apply(--layout-center);
-          @apply(--layout-center-justified);
-          box-shadow: -1px 0 0 #aaa,
-                      1px 0 0 #aaa,
-                      0 -1px 0 #aaa,
-                      0 1px 0 #aaa;
         }
       }
 
@@ -68,32 +41,20 @@
 
     <header>
       <paper-tabs selected={{selected}} noink>
-        <paper-tab>JimRohn</paper-tab>
-        <paper-tab>JimRohn Custom</paper-tab>
+        <template is="dom-repeat" items="{{pages}}">
+          <paper-tab>{{item.tabName}}</paper-tab>
+        </template>
       </paper-tabs>
     </header>
 
-    <iron-ajax
-      auto
-      url="{{dataUrl}}"
-      method="GET"
-      handle-as="json"
-      last-response={{quotes}}
-    ></iron-ajax>
-
-    <app-indexeddb-mirror
-      key="{{appStorageKey}}"
-      data="{{quotes}}"
-      persisted-data="{{cacheQuotes}}"
-      log=true
-    >
-    </app-indexeddb-mirror>
-
-    <iron-swipeable-container swipe-style="curve" width-ratio="1">
-      <template is="dom-repeat" items={{cacheQuotes.quotes}}>
-        <div>{{item.body}}</div>
+    <iron-pages selected="{{selected}}">
+      <template is="dom-repeat" items="{{pages}}">
+        <ck-quotepage
+          app-storage-key="{{storageKey(item.storageKey)}}"
+          data-url="{{dataUrl(item.dataUrl)}}"
+        ></ck-quotepage>
       </template>
-    </iron-swipeable-container>
+    </iron-pages>
 
     <footer>
       Jim Rohn quotes from
@@ -108,37 +69,37 @@
       static get is() { return 'quote_center-app'; }
       static get properties() {
         return {
-          quotes: {
-            type: Array
-          },
-          appStorageKey: {
-            type: String,
-            value: "cara-iu-vau"
-          },
-          dataFiles: {
+          pages: {
             type: Array,
             value: [
-              "JimRohn.json", "bestlife.json"
+              {
+                tabName: "JimRohn",
+                storageKey: "JimRohn",
+                dataUrl: "JimRohn.json"
+              },
+              {
+                tabName: "JimRohn Custom",
+                storageKey: "JimRohn Custom",
+                dataUrl: "bestlife.json"
+              },
             ]
           },
+
           selected: {
             type: Number,
-            value: 0,
-            observer: "_selectedChanged"
-          },
-
-          dataUrl: {
-            type: String
+            value: 0
           }
         };
       }
 
-      _selectedChanged() {
-        this._calculateDataUrl();
+      dataUrl(url) {
+        return "/data/" + url;
       }
 
-      _calculateDataUrl() {
-        this.dataUrl = "/data/" + this.dataFiles[this.selected];
+      storageKey(storageKey) {
+        var prefix = "cara-iu-vau";
+        var sanitizeStorageKey = storageKey.replace(/\s/, '');
+        return prefix + "-" + sanitizeStorageKey;
       }
     }
 

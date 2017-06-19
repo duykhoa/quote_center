@@ -1,0 +1,90 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../../bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.html">
+<link rel="import" href="../../bower_components/iron-swipeable-container/iron-swipeable-container.html">
+<link rel="import" href="../../bower_components/paper-tabs/paper-tabs.html">
+
+<!--
+  appStorageKey
+  dataURL
+-->
+<dom-module id="ck-quotepage">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+
+      div {
+        padding: 8px 0;
+      }
+
+
+      @media (max-width: 1024px) {
+        :host {
+          width: 100%;
+        }
+
+        div {
+          height: 70vh;
+          padding: 0 3vw;
+          margin-bottom: 1vh;
+          @apply(--layout);
+          @apply(--layout-center);
+          @apply(--layout-center-justified);
+          box-shadow: -1px 0 0 #aaa, 1px 0 0 #aaa, 0 -1px 0 #aaa, 0 1px 0 #aaa;
+        }
+      }
+
+    </style>
+
+    <iron-ajax
+      auto
+      url="{{dataUrl}}"
+      method="GET"
+      handle-as="json"
+      last-response={{quotes}}
+    ></iron-ajax>
+
+    <app-indexeddb-mirror
+      key="{{appStorageKey}}"
+      data="{{quotes}}"
+      persisted-data="{{cacheQuotes}}"
+      log=true
+    >
+    </app-indexeddb-mirror>
+
+    <iron-swipeable-container swipe-style="curve" width-ratio="1" id="swipeable">
+      <template is="dom-repeat" items={{cacheQuotes.quotes}}>
+        <div>{{item.body}}</div>
+      </template>
+    </iron-swipeable-container>
+
+    <footer>
+      Jim Rohn quotes from
+      <a href="https://favqs.com/api">favqs</a>
+    </footer>
+
+  </template>
+
+  <script>
+    /** @polymerElement */
+    class CkQuotepage extends Polymer.Element {
+      static get is() { return 'ck-quotepage'; }
+      static get properties() {
+        return {
+          appStorageKey: {
+            type: String,
+            value: "cara-iu-vau"
+          },
+          dataUrl: {
+            type: String
+          }
+        };
+      }
+    }
+
+    window.customElements.define(CkQuotepage.is, CkQuotepage);
+  </script>
+</dom-module>
