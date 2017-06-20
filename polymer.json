@@ -1,4 +1,6 @@
 {
+  "entrypoint": "index.html",
+  "shell": "src/quote_center-app/quote_center-app.html",
   "lint": {
     "rules": [
       "polymer-2"
@@ -17,5 +19,11 @@
     "bower_components/app-storage/app-indexeddb-mirror/common-worker-scope.js",
     "bower_components/webcomponentsjs/webcomponents-lite.js",
     "manifest.json"
-  ]
+  ],
+  "builds": [{
+    "bundle": true,
+    "js": {"minify": true},
+    "css": {"minify": true},
+    "html": {"minify": true}
+  }]
 }

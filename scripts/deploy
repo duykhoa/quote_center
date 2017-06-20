@@ -1,4 +1,4 @@
 #!/bin/bash
 
-polymer build --html-minify --js-minify --css-minify --bundle
+polymer build --verbose
 firebase deploy
