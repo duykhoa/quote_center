@@ -67,7 +67,7 @@ class CrawlData
   end
 
   def append_response(_quotes)
-    quotes.concat  _quotes
+    quotes.concat(_quotes.map { |quote| { body: quote["body"] } })
   end
 
   def headers
