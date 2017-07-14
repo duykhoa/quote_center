@@ -1,6 +1,7 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
 <link rel="import" href="../../bower_components/paper-tabs/paper-tabs.html">
 <link rel="import" href="../../bower_components/iron-pages/iron-pages.html">
+<link rel="import" href="../../bower_components/font-roboto/roboto.html">
 
 <link rel="import" href="../ck-quotepage/ck-quotepage.html">
 
@@ -11,10 +12,10 @@
   <template>
     <style>
       :host {
-        font: 1.1em Courier, sans-serif;
-        text-shadow: -1px 0 1px #d6d5d5, -2px 0 0 #eaeaea;
+        font: 1.1em 'Roboto', sans-serif;
+        text-shadow: -1px 0 1px #292929, -2px 0 0 #323232;
         line-height: 1.5em;
-        color: #505050;
+        color: #e6e6e6;
         -moz-user-select: none;
         -ms-user-select: none;
         -webkit-user-select: none;
@@ -22,11 +23,12 @@
         cursor: default;
 
         --paper-tabs-content: {
-          background: var(--google-grey-100);
-          color: var(--paper-indigo-a200);
+          background: var(--google-grey-700);
+          color: var(--paper-white-a200);
+          font: 1.1em 'Roboto', sans-serif;
         }
 
-        --paper-tabs-selection-bar-color: var(--google-green-500);
+        --paper-tabs-selection-bar-color: var(--google-green-700);
         width: 50%;
       }
 
