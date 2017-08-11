@@ -13,9 +13,10 @@
     <style>
       :host {
         font: 1.1em 'Roboto', sans-serif;
-        text-shadow: -1px 0 1px #292929, -2px 0 0 #323232;
+        font-weight: 300;
+        text-shadow: 0 0 3px var(--paper-green-700);
         line-height: 1.5em;
-        color: #e6e6e6;
+        color: #eae6e6;
         -moz-user-select: none;
         -ms-user-select: none;
         -webkit-user-select: none;
@@ -24,6 +25,7 @@
 
         --paper-tabs-content: {
           font: 1.1em 'Roboto', sans-serif;
+          font-weight: 300;
         }
 
         --paper-tabs-selection-bar-color: var(--paper-green-a700);
@@ -41,7 +43,7 @@
     <header>
       <paper-tabs selected={{selected}} noink>
         <template is="dom-repeat" items="{{pages}}">
-          <paper-tab>{{item.tabName}}</paper-tab>
+          <paper-tab>{{_tabName(item.tabName)}}</paper-tab>
         </template>
       </paper-tabs>
     </header>
@@ -71,7 +73,7 @@
             type: Array,
             value: [
               {
-                tabName: "Quote for the day 🤓",
+                tabName: "Quote for the day",
                 storageKey: "JimRohn",
                 dataUrl: "JimRohn.json"
               }
@@ -93,6 +95,19 @@
         var prefix = "cara-iu-vau";
         var sanitizeStorageKey = storageKey.replace(/\s/, '');
         return prefix + "-" + sanitizeStorageKey;
+      }
+
+      _tabName(tabName) {
+        return tabName + " " + this._randEmoji();
+      }
+
+      _randEmoji() {
+        var emojis = [
+          '😃', '👻', '💄', '👋', '🔥', '🌈', '🌪', '🍺', '🚀', '⛏'
+        ]
+
+        var index = Math.floor(Math.random() * emojis.length);
+        return emojis[index];
       }
     }
 
