@@ -65,14 +65,6 @@ class ConvertToJson
     path = File.join(__dir__, file_name)
     File.open(path, "r")
   end
-
-  def log_on
-    start_at = Time.now
-    yield
-    finished_at = Time.now
-
-    $stdout << "*** Done! Finishing in #{ finished_at - start_at}\nExitting.\n"
-  end
 end
 
 ConvertToJson.convert
