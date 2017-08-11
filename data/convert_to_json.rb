@@ -14,11 +14,14 @@ class ConvertToJson
   attr_reader :file_name
 
   def convert
-    log_on do
-      lines = filestream.readlines
-      concat_lines = concat_lines(lines)
-      write_json(concat_lines.shuffle)
-    end
+    start_at = Time.now
+
+    lines = filestream.readlines
+    concat_lines = concat_lines(lines)
+    write_json(concat_lines.shuffle)
+    finished_at = Time.now
+
+    $stdout << "*** Done! Finishing in #{ finished_at - start_at}.\n*** Total quotes is #{ concat_lines.length }\nExitting.\n"
   end
 
   def write_json(concat_lines)
