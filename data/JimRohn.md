@@ -889,3 +889,14 @@ experiment with different ways that helps you to do that.
 What primary of journal is collecting good ideas.
 
 My journals now make up a significant part of my own library.
+
+Put your goals in your journal. Because one of the major people you want to study
+is yourself.
+
+Here is another reason for writing your goals down: It shows you're serious about
+doing better.
+
+Everybody hopes thing will get better. Everybody hope. Poor people hope. That's
+gotta tell you something. It means the future isn't getting better by hope.
+
+The guy is 50 and he's broke, and he's still smiling. See that not good. 
