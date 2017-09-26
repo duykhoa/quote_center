@@ -1,6 +1,7 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
 <link rel="import" href="../../bower_components/iron-image/iron-image.html">
 <link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout-classes.html">
+<link rel="import" href="../../bower_components/paper-spinner/paper-spinner.html">
 
 <dom-module id="ck-random-pic">
   <template>
@@ -33,8 +34,13 @@
 
     <div
       class="layout horizontal center-justified center-center"
-      on-click="_loadImage"
-    >{{loadText}}</div>
+      on-click="_loadImage">
+      {{loadText}}
+
+      <paper-spinner
+        active="{{_loading}}"
+      ></paper-spinner>
+    </div>
 
     <iron-image
       id="img"
@@ -43,7 +49,9 @@
       fade
       preventLoad
       loaded="{{_imgLoaded}}"
+      loading="{{_loading}}"
     ></iron-image>
+
   </template>
 
   <script>

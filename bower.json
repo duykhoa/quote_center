@@ -9,7 +9,8 @@
     "iron-flex-layout": "PolymerElements/iron-flex-layout",
     "paper-tabs": "PolymerElements/paper-tabs#^2.0.0",
     "iron-pages": "PolymerElements/iron-pages#^2.0.0",
-    "iron-image": "PolymerElements/iron-image#^2.1.2"
+    "iron-image": "PolymerElements/iron-image#^2.1.2",
+    "paper-spinner": "PolymerElements/paper-spinner#^2.0.0"
   },
   "devDependencies": {
     "web-component-tester": "^6.0.0-prerelease.5",
