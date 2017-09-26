@@ -1,6 +1,6 @@
 {
   "entrypoint": "index.html",
-  "shell": "src/quote_center-app/quote_center-app.html",
+  "shell": "src/quote-center-app/quote-center-app.html",
   "lint": {
     "rules": [
       "polymer-2"

@@ -1,4 +1,5 @@
 #!/bin/bash
 
-polymer build --verbose
+polymer lint &&
+polymer build --verbose &&
 firebase deploy

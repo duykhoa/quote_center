@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>quote_center-app test</title>
+
+    <script src="../../../webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="../../../web-component-tester/browser.js"></script>
+
+    <link rel="import" href="../../src/quote-center-app/quote-center-app.html">
+  </head>
+  <body>
+
+    <test-fixture id="BasicTestFixture">
+      <template>
+        <quote-center-app></quote-center-app>
+      </template>
+    </test-fixture>
+
+    <test-fixture id="ChangedPropertyTestFixture">
+      <template>
+        <quote-center-app></quote-center-app>
+      </template>
+    </test-fixture>
+
+    <script>
+      suite('quote-center-app', function() {
+
+        test('instantiating the element with default properties works', function() {
+          var element = fixture('BasicTestFixture');
+
+          assert.equal(element.selected, 0);
+          var elementShadowRoot = element.shadowRoot;
+
+        });
+      });
+    </script>
+
+
+  </body>
+</html>
