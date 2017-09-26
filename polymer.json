@@ -24,6 +24,8 @@
     "bundle": true,
     "js": {"minify": true},
     "css": {"minify": true},
-    "html": {"minify": true}
+    "html": {"minify": true},
+    "addServiceWorker": true,
+    "swPrecacheConfig": "./sw-precache-config.js"
   }]
 }
