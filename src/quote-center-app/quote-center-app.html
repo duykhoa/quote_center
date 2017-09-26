@@ -8,7 +8,7 @@
 <!--<link rel="import" href="../../bower_components/polymer/lib/elements/dom-if.html">-->
 <!--<link rel="import" href="../../bower_components/polymer/lib/elements/dom-repeat.html">-->
 
-<dom-module id="quote_center-app">
+<dom-module id="quote-center-app">
   <template>
     <style>
       :host {
@@ -56,8 +56,8 @@
 
   <script>
     /** @polymerElement */
-    class Quote_centerApp extends Polymer.Element {
-      static get is() { return 'quote_center-app'; }
+    class QuoteCenterApp extends Polymer.Element {
+      static get is() { return "quote-center-app"; }
       static get properties() {
         return {
           selected: {
@@ -68,6 +68,6 @@
       }
     }
 
-    window.customElements.define(Quote_centerApp.is, Quote_centerApp);
+    window.customElements.define(QuoteCenterApp.is, QuoteCenterApp);
   </script>
 </dom-module>
