@@ -42,25 +42,16 @@
 
     <header>
       <paper-tabs selected={{selected}} noink>
-        <template is="dom-repeat" items="{{pages}}">
-          <paper-tab>{{_tabName(item.tabName)}}</paper-tab>
-        </template>
+        <paper-tab>Food for thought</paper-tab>
       </paper-tabs>
     </header>
 
     <iron-pages selected="{{selected}}">
-      <template is="dom-repeat" items="{{pages}}">
-        <ck-quotepage
-          app-storage-key="{{storageKey(item.storageKey)}}"
-          data-url$="{{dataUrl(item.dataUrl)}}"
-        ></ck-quotepage>
-      </template>
+      <ck-quotepage
+        app-storage-key="jimrohn-quotes"
+        data-url="/data/JimRohn.json"
+      ></ck-quotepage>
     </iron-pages>
-
-    <footer>
-      Jim Rohn quotes, collect from multiple sources.
-    </footer>
-
   </template>
 
   <script>
@@ -69,45 +60,11 @@
       static get is() { return 'quote_center-app'; }
       static get properties() {
         return {
-          pages: {
-            type: Array,
-            value: [
-              {
-                tabName: "Quote for the day",
-                storageKey: "JimRohn",
-                dataUrl: "JimRohn.json"
-              }
-            ]
-          },
-
           selected: {
             type: Number,
             value: 0
           }
         };
-      }
-
-      dataUrl(url) {
-        return "/data/" + url;
-      }
-
-      storageKey(storageKey) {
-        var prefix = "cara-iu-vau";
-        var sanitizeStorageKey = storageKey.replace(/\s/, '');
-        return prefix + "-" + sanitizeStorageKey;
-      }
-
-      _tabName(tabName) {
-        return tabName + " " + this._randEmoji();
-      }
-
-      _randEmoji() {
-        var emojis = [
-          '😃', '👻', '💄', '👋', '🔥', '🌈', '🌪', '🍺', '🚀', '⛏'
-        ]
-
-        var index = Math.floor(Math.random() * emojis.length);
-        return emojis[index];
       }
     }
 
