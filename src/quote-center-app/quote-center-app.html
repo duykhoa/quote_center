@@ -4,6 +4,7 @@
 <link rel="import" href="../../bower_components/font-roboto/roboto.html">
 
 <link rel="import" href="../ck-quotepage/ck-quotepage.html">
+<link rel="import" href="../ck-quotepage/ck-random-pic.html">
 
 <!--<link rel="import" href="../../bower_components/polymer/lib/elements/dom-if.html">-->
 <!--<link rel="import" href="../../bower_components/polymer/lib/elements/dom-repeat.html">-->
@@ -44,6 +45,7 @@
     <header>
       <paper-tabs selected={{selected}} noink>
         <paper-tab>Food for thought</paper-tab>
+        <paper-tab>Random</paper-tab>
       </paper-tabs>
     </header>
 
@@ -52,6 +54,8 @@
         app-storage-key="jimrohn-quotes"
         data-url="/data/JimRohn.json"
       ></ck-quotepage>
+
+      <ck-random-pic></ck-random-pic>
     </iron-pages>
   </template>
 

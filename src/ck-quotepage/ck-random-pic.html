@@ -1,0 +1,102 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../bower_components/iron-image/iron-image.html">
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout-classes.html">
+
+<dom-module id="ck-random-pic">
+  <template>
+    <style include="iron-flex">
+      :host {
+        display: block;
+        height: 100vh;
+        width: 100%;
+        position: relative;
+      }
+
+      iron-image {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 9;
+      }
+
+      div {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+      }
+    </style>
+
+    <div
+      class="layout horizontal center-justified center-center"
+      on-click="_loadImage"
+    >{{loadText}}</div>
+
+    <iron-image
+      id="img"
+      sizing="contain"
+      preload
+      fade
+      preventLoad
+      loaded="{{_imgLoaded}}"
+    ></iron-image>
+  </template>
+
+  <script>
+    /** @polymerElement */
+    class CkRandomPic extends Polymer.Element {
+      static get is() { return 'ck-random-pic'; }
+      static get properties() {
+        return {
+          _imgLoaded: {
+            type: Boolean,
+            observer: "_imgLoadedChanged"
+          },
+
+          loadText: {
+            type: String,
+            value: "Click me! (just experiment)"
+          }
+        };
+      }
+
+      _loadImage() {
+        // turn off text
+
+        if (this.loadText != "") {
+          this.loadText = "";
+        }
+
+        var img = this.$.img;
+
+        img.src = this._imgs()[ this._rand(this._imgs().length) ];
+        img.preventLoad = false;
+      }
+
+      _imgs() {
+        return [
+         "https://scontent-sit4-1.cdninstagram.com/t51.2885-15/e35/21879437_1916629208660419_6242471782025003008_n.jpg",
+         "https://scontent-sit4-1.cdninstagram.com/t51.2885-15/e35/21226942_368762523557502_8673191077039046656_n.jpg",
+         "https://instagram.fsin2-1.fna.fbcdn.net/t51.2885-15/e35/20688762_1418705708225304_4380674845860429824_n.jpg"
+        ];
+      }
+
+      _imgLoadedChanged(value) {
+        if (value) {
+          var img = this.$.img;
+          img.preventLoad = true;
+        }
+      }
+
+      _rand(max) {
+        return Math.trunc(Math.random(max) * max);
+      }
+    }
+
+    window.customElements.define(CkRandomPic.is, CkRandomPic);
+  </script>
+</dom-module>

@@ -1,6 +1,6 @@
 {
-  "name": "quote_center",
-  "short_name": "quote_center",
+  "name": "Quote Center Website",
+  "short_name": "quote center list",
   "start_url": "/",
   "display": "standalone"
 }
