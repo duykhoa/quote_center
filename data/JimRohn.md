@@ -900,3 +900,44 @@ Everybody hopes thing will get better. Everybody hope. Poor people hope. That's
 gotta tell you something. It means the future isn't getting better by hope.
 
 The guy is 50 and he's broke, and he's still smiling. See that not good. 
+
+To learn any skill, you just got to go through it again and again and again
+
+I do one seminar about challenge to succeed, it's about 4 hours long and I can do it without any note.
+Every once in a while a person come and said: You lecture this evening for 4 hours without any note. How can you do that?
+I said it's very simple, I've done it a few thousand times.
+
+How long do you wanna to take to get good at what you do? You say not very long, then you got to do it often. Repetition starts the skill
+
+Repetition with purpose. The purpose is to growth, and to change, to develop, to expand, to make progress.
+
+I can forgive you for a mistake in judgement but I can't forgive you for a mistake in intense.
+
+I used to tell story too long too long. I get involved in long long stories on and on, and the time I hit the bunch line people forget how to start it. Now it doesn't make sense.
+
+Here is why brevity is important, human attention span is short.
+
+What you are adds so much weight to what you say that you don't need to say very much.
+
+Be a student of style, but don't just copy someone's style.
+
+How people speak well, be a student of that. And then, borrowing bit of pieces form people you admired from the way they communicate. Make sure all of that linked in to you and become your own distinctive style
+
+Say it well is a proper choice of words. To build my early vocabulary, I used to put three four words I didn't know on the car, put them up on sun visor. Soon enough, at the end of the day, I master 2 3 words.
+
+There is a relationship between vocabulary and behavior. The more limited the vocabulary, the more tendency the poor behavior.
+
+Don't forget to say it. Practice the art every chance you get.
+
+It's easy to be lazy in language all days and not practice the gift and the art.
+Then when it comes time to make an important talk, to appeal to a child, we're missing the works and missing the sharpness and missing the vocabulary,
+simply because we lack of the practice of doing it every day.
+
+It's okay to send somebody flowers, but don't let flowers do all your talking. Here is why: flowers have a limited vocabulary.
+About the best flowers can say is: you remember or you care. That's about the best.
+
+Flowers don't say you do an incredible thing to me, no body in this world affects me like you do. Now see flowers talk but they don't say that. That you need to add in a card.
+
+So the next time you give flower, say: just so my flowers won't do all the talking, let me add. And then put the gift of words to work, to go along with the activity.
+
+Don't shoot a cannon to a rabbit. It's effective, but you'll have no more rabbit. It calls too much firepower.
