@@ -4,6 +4,7 @@
 <link rel="import" href="../../bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.html">
 <link rel="import" href="../../bower_components/iron-swipeable-container/iron-swipeable-container.html">
 <link rel="import" href="../../bower_components/paper-tabs/paper-tabs.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
 
 <!--
   appStorageKey
@@ -13,30 +14,28 @@
   <template>
     <style>
       :host {
-        display: block;
+        height: 100vh;
+        padding: 15px;
+        @apply --layout-horizontal;
+        @apply --layout-wrap;
+        @apply --layout-center-aligned;
       }
 
-      div {
-        padding: 8px 0;
+      iron-pages {
+        @apply --layout-flex;
+        flex-basis: 100%;
       }
 
-
-      @media (max-width: 1024px) {
-        :host {
-          width: 100%;
-        }
-
-        div {
-          height: 100vh;
-          padding: 0 3vw;
-          margin-bottom: 1vh;
-          @apply(--layout);
-          @apply(--layout-center);
-          @apply(--layout-center-justified);
-          box-shadow: -1px 0 0 #aaa, 1px 0 0 #aaa, 0 -1px 0 #aaa, 0 1px 0 #aaa;
-        }
+      [role="quote"] {
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        line-height: 1.3em;
       }
 
+      [role="status"] {
+        padding-top: 5px;
+        text-align: right;
+      }
     </style>
 
     <iron-ajax
@@ -53,11 +52,20 @@
       persisted-data="{{cacheQuotes}}"
     ></app-indexeddb-mirror>
 
-    <iron-swipeable-container swipe-style="curve" width-ratio="1" id="swipeable">
-      <template is="dom-repeat" items={{cacheQuotes.quotes}}>
-        <div>{{item.body}}</div>
+    <iron-pages selected="{{selected}}">
+      <template is="dom-repeat" items=[[cacheQuotes.quotes]]>
+        <div role="quote">{{item.body}}</div>
       </template>
-    </iron-swipeable-container>
+    </iron-pages>
+
+    <div role="navigation">
+      <paper-button disabled="[[noPrevPage(selected)]]" raised on-click="prevQuote">Previous</paper-button>
+      <paper-button disabled="[[noNextPage(selected, cacheQuotes)]]" raised on-click="nextQuote">Next</paper-button>
+
+      <div role="status">
+        Quote [[inc(selected, 1)]] of [[lengthOf(cacheQuotes)]]
+      </div>
+    </div>
 
   </template>
 
@@ -73,8 +81,38 @@
           },
           dataUrl: {
             type: String
+          },
+          selected: {
+            type: Number,
+            value: 0
           }
         };
+      }
+
+      nextQuote() {
+        this.selected += 1;
+      }
+
+      prevQuote() {
+        this.selected -= 1;
+      }
+
+      lengthOf(cacheQuotes) {
+        return cacheQuotes.quotes.length;
+      }
+
+      noNextPage(selected, cacheQuotes) {
+        if (cacheQuotes) {
+          return selected >= this.lengthOf(this.cacheQuotes);
+        }
+      }
+
+      noPrevPage(selected) {
+        return this.selected <= 0;
+      }
+
+      inc(value, by) {
+        return value + by;
       }
     }
 

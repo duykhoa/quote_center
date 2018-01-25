@@ -13,50 +13,16 @@
   <template>
     <style>
       :host {
-        font: 1.1em 'Courier', sans-serif;
+        font: 1em 'Courier', sans-serif;
         font-weight: 300;
-        line-height: 1.5em;
-        color: var(--paper-light-green-a100);
-        display: block;
-        background: var(--paper-green-900);
-
-        -moz-user-select: none;
-        -ms-user-select: none;
-        -webkit-user-select: none;
-        user-select: none;
-        cursor: default;
-
-        --paper-tabs-content: {
-          font: 1.1em 'Courier', sans-serif;
-          font-weight: 300;
-        }
-
-        --paper-tabs-selection-bar-color: var(--paper-green-a700);
-        width: 50%;
-      }
-
-      @media (max-width: 1024px) {
-        :host {
-          width: 100%;
-        }
+        color: var(--paper-indigo-900);
       }
     </style>
 
-    <header>
-      <paper-tabs selected={{selected}} noink>
-        <paper-tab>Food for thought</paper-tab>
-        <paper-tab>Random</paper-tab>
-      </paper-tabs>
-    </header>
-
-    <iron-pages selected="{{selected}}">
-      <ck-quotepage
-        app-storage-key="jimrohn-quotes"
-        data-url="/data/JimRohn.json"
-      ></ck-quotepage>
-
-      <ck-random-pic></ck-random-pic>
-    </iron-pages>
+    <ck-quotepage
+      app-storage-key="jimrohn-quotes"
+      data-url="/data/JimRohn.json"
+    ></ck-quotepage>
   </template>
 
   <script>
@@ -65,10 +31,6 @@
       static get is() { return "quote-center-app"; }
       static get properties() {
         return {
-          selected: {
-            type: Number,
-            value: 0
-          }
         };
       }
     }
