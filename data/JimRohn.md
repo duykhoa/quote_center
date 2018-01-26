@@ -941,3 +941,15 @@ Flowers don't say you do an incredible thing to me, no body in this world affect
 So the next time you give flower, say: just so my flowers won't do all the talking, let me add. And then put the gift of words to work, to go along with the activity.
 
 Don't shoot a cannon to a rabbit. It's effective, but you'll have no more rabbit. It calls too much firepower.
+
+You don't get paid for the hour. You get paid for the value you bring to the hour.
+
+The more you know the less you need to say.
+
+How long should you try? - Until.
+
+Successful people have libraries. The rest have big screen TVs.
+
+Excuses are the nails used to build a house of failure.
+
+Old way won't open new doors.
