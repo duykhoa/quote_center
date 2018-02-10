@@ -37,6 +37,12 @@
         padding-top: 5px;
         text-align: right;
       }
+
+      paper-button[custom] {
+        --paper-button-ink-color: var(--paper-lime-50);
+        background-color: var(--google-blue-300);
+        color: #fff;
+      }
     </style>
 
     <iron-ajax
@@ -62,6 +68,7 @@
     <div role="navigation">
       <paper-button disabled="[[noPrevPage(selected)]]" raised on-click="prevQuote">Previous</paper-button>
       <paper-button disabled="[[noNextPage(selected, cacheQuotes)]]" raised on-click="nextQuote">Next</paper-button>
+      <paper-button custom raised on-click="random">Randomize</paper-button>
 
       <div role="status">
         Quote [[inc(selected, 1)]] of [[lengthOf(cacheQuotes)]]
@@ -114,6 +121,10 @@
 
       inc(value, by) {
         return value + by;
+      }
+
+      random() {
+        this.selected = Math.ceil(Math.random() * this.lengthOf(this.cacheQuotes));
       }
     }
 
