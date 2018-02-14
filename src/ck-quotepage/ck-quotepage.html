@@ -16,7 +16,6 @@
     <style>
       :host {
         min-height: 100vh;
-        padding: 15px;
         @apply --layout-horizontal;
         @apply --layout-wrap;
         @apply --layout-center-aligned;
@@ -28,20 +27,34 @@
       }
 
       [role="quote"] {
-        margin-bottom: 10px;
+        padding: 10px;
         font-size: 1.5em;
         line-height: 1.4em;
       }
 
       [role="status"] {
-        padding-top: 5px;
+        padding: 5px;
         text-align: right;
       }
 
-      paper-button[custom] {
-        --paper-button-ink-color: var(--paper-lime-50);
+      paper-button:not([disabled]) {
+        --paper-button-ink-color: var(--paper-yellow-50);
+        background-color: var(--paper-green-a100);
+        color: #fff;
+      }
+
+      paper-button[random] {
         background-color: var(--google-blue-300);
         color: #fff;
+      }
+
+      .buttons-wrapper {
+        width: 100%;
+        @apply --layout-horizontal;
+      }
+
+      [role="navigation"] {
+        width: 100%;
       }
     </style>
 
@@ -66,9 +79,11 @@
     </iron-pages>
 
     <div role="navigation">
-      <paper-button disabled="[[noPrevPage(selected)]]" raised on-click="prevQuote">Previous</paper-button>
-      <paper-button disabled="[[noNextPage(selected, cacheQuotes)]]" raised on-click="nextQuote">Next</paper-button>
-      <paper-button custom raised on-click="random">Randomize</paper-button>
+      <div class="buttons-wrapper">
+        <paper-button disabled="[[noPrevPage(selected)]]" on-click="prevQuote">Previous</paper-button>
+        <paper-button disabled="[[noNextPage(selected, cacheQuotes)]]" on-click="nextQuote">Next</paper-button>
+        <paper-button random raised on-click="random">Randomize</paper-button>
+      </div>
 
       <div role="status">
         Quote [[inc(selected, 1)]] of [[lengthOf(cacheQuotes)]]
