@@ -1,9 +1,9 @@
 {
   "entrypoint": "index.html",
-  "shell": "src/quote-center-app/quote-center-app.html",
+  "shell": "src/quote-center-app/quote-center-app.js",
   "lint": {
     "rules": [
-      "polymer-2"
+      "polymer-3"
     ]
   },
   "sources": [
@@ -15,14 +15,14 @@
     "manifest.json"
   ],
   "extraDependencies": [
-    "bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror-worker.js",
-    "bower_components/app-storage/app-indexeddb-mirror/common-worker-scope.js",
-    "bower_components/webcomponentsjs/webcomponents-lite.js",
+    "node_modules/@polymer/app-storage/app-indexeddb-mirror/app-indexeddb-mirror-worker.js",
+    "node_modules/@polymer/app-storage/app-indexeddb-mirror/common-worker-scope.js",
+    "node_modules/@webcomponentsjs/**",
     "manifest.json"
   ],
   "builds": [{
     "bundle": true,
-    "js": {"minify": true},
+    "js": {"minify": true, "compile": true},
     "css": {"minify": true},
     "html": {"minify": true},
     "addServiceWorker": true,
