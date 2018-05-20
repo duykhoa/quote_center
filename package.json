@@ -14,7 +14,9 @@
     "@polymer/paper-spinner": "^3.0.0-pre.1",
     "@polymer/paper-tabs": "^3.0.0-pre.1",
     "@polymer/polymer": "^3.0.0-pre.1",
-    "firebase-functions": "^1.0.2"
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "firebase-functions": "^1.0.2",
+    "webcomponentsjs": "^1.0.2"
   },
   "devDependencies": {}
 }
