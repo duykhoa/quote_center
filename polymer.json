@@ -4,20 +4,17 @@
   "lint": {
     "rules": [
       "polymer-3"
-    ]
+    ],
+    "ignoreWarnings": ["not-loadable"]
   },
   "sources": [
     "src/**/*",
     "assets/**/*",
-    "data/**/*",
-    "bower.json",
     "public/assets/**/*",
     "manifest.json"
   ],
   "extraDependencies": [
-    "node_modules/@polymer/app-storage/app-indexeddb-mirror/app-indexeddb-mirror-worker.js",
-    "node_modules/@polymer/app-storage/app-indexeddb-mirror/common-worker-scope.js",
-    "node_modules/@webcomponentsjs/**",
+    "node_modules/@webcomponents/**",
     "manifest.json"
   ],
   "builds": [{

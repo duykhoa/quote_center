@@ -37,7 +37,8 @@ class ConvertToJson
     {
       quotes: concat_lines.map do |line|
         {
-          body: line.gsub("\n", "")
+          body: line.gsub("\n", ""),
+          author: "Jim Rohn"
         }
       end
     }

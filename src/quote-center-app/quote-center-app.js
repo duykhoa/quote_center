@@ -1,5 +1,4 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
-import '@polymer/paper-tabs/paper-tabs.js';
 import '@polymer/font-roboto/roboto.js';
 import '../ck-quotepage/ck-quotepage.js';
 

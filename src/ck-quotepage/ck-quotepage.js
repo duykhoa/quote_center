@@ -1,9 +1,7 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
 import {microTask} from '@polymer/polymer/lib/utils/async.js';
 
-import '@polymer/iron-ajax/iron-ajax.js';
 import '@polymer/iron-flex-layout/iron-flex-layout.js';
-import '@polymer/iron-pages/iron-pages.js';
 import '@polymer/paper-button/paper-button.js';
 import '@polymer/paper-spinner/paper-spinner.js';
 /** @polymerElement */
@@ -96,11 +94,6 @@ class CkQuotepage extends PolymerElement {
       loading: {
         type: Boolean,
         value: true
-      },
-
-      dbVersion: {
-        type: String,
-        value: "615038c00cd4e05e931e3235e82f396b"
       }
     };
   }
@@ -123,7 +116,7 @@ class CkQuotepage extends PolymerElement {
   constructor() {
     super();
     firebase.database()
-      .ref("/quotes/" + this.dbVersion)
+      .ref("/quotes")
       .once("value").then((snap) =>  {
         this.updateUI(snap.val());
       });
