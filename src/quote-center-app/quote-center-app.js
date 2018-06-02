@@ -14,7 +14,7 @@ class QuoteCenterApp extends PolymerElement {
       }
       </style>
 
-      <ck-quotepage app-storage-key="jimrohn-quotes" data-url="/data/JimRohn.json"></ck-quotepage>
+      <ck-quotepage app-storage-key="jimrohn-quotes" db-key="/quotes/"></ck-quotepage>
       `;
   }
 

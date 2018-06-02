@@ -1,11 +1,11 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
+import {microTask} from '@polymer/polymer/lib/utils/async.js';
 
 import '@polymer/iron-ajax/iron-ajax.js';
 import '@polymer/iron-flex-layout/iron-flex-layout.js';
 import '@polymer/iron-pages/iron-pages.js';
-import '@polymer/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.js';
-import '@polymer/paper-tabs/paper-tabs.js';
 import '@polymer/paper-button/paper-button.js';
+import '@polymer/paper-spinner/paper-spinner.js';
 /** @polymerElement */
 /*
   appStorageKey
@@ -22,30 +22,8 @@ class CkQuotepage extends PolymerElement {
         @apply --layout-center-aligned;
       }
 
-      iron-pages {
-        @apply --layout-flex;
-        flex-basis: 100%;
-      }
-
-      [role="quote"] {
-        padding: 10px;
-        font-size: 1.5em;
-        line-height: 1.4em;
-      }
-
-      [role="status"] {
-        padding: 5px;
-        text-align: right;
-      }
-
-      paper-button:not([disabled]) {
-        --paper-button-ink-color: var(--paper-yellow-50);
-        background-color: var(--paper-green-a100);
-        color: #fff;
-      }
-
       paper-button[random] {
-        background-color: var(--google-blue-300);
+        background-color: var(--paper-teal-300);
         color: #fff;
       }
 
@@ -54,30 +32,46 @@ class CkQuotepage extends PolymerElement {
         @apply --layout-horizontal;
       }
 
-      [role="navigation"] {
+      [role='navigation'] {
         width: 100%;
+      }
+
+      p {
+        font-size: 1.4em;
+        padding: 10px;
+        line-height: 1.2em;
+      }
+
+      h5 {
+        text-align: right;
+      }
+
+      .loading-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10001;
+        background: rgba(0, 0, 0, 0.7);
+        @apply --layout-horizontal;
+        @apply --layout-center-justified;
+        @apply --layout-center;
       }
     </style>
 
-    <iron-ajax auto="" url="{{dataUrl}}" method="GET" handle-as="json" last-response="{{quotes}}"></iron-ajax>
+    <div class="loading-wrapper" hidden$="[[!loading]]">
+      <paper-spinner active="[[loading]]"></paper-spinner>
+    </div>
 
-    <app-indexeddb-mirror key="{{appStorageKey}}" data="{{quotes}}" persisted-data="{{cacheQuotes}}"></app-indexeddb-mirror>
-
-    <iron-pages selected="{{selected}}">
-      <template is="dom-repeat" items="[[cacheQuotes.quotes]]">
-        <div role="quote">{{item.body}}</div>
-      </template>
-    </iron-pages>
+    <div>
+      <p>[[randomQuote.body]]</p>
+      <h5>Jim Rohn</h5>
+    </div>
 
     <div role="navigation">
       <div class="buttons-wrapper">
-        <paper-button disabled="[[noPrevPage(selected)]]" on-click="prevQuote">Previous</paper-button>
-        <paper-button disabled="[[noNextPage(selected, cacheQuotes)]]" on-click="nextQuote">Next</paper-button>
-        <paper-button random="" raised="" on-click="random">Randomize</paper-button>
-      </div>
-
-      <div role="status">
-        Quote [[inc(selected, 1)]] of [[lengthOf(cacheQuotes)]]
+        <paper-button random on-tap="random">Randomize</paper-button>
       </div>
     </div>
   `;
@@ -86,48 +80,53 @@ class CkQuotepage extends PolymerElement {
   static get is() { return 'ck-quotepage'; }
   static get properties() {
     return {
-      appStorageKey: {
-        type: String,
-        value: "cara-iu-vau"
-      },
-      dataUrl: {
+      dbKey: {
         type: String
       },
-      selected: {
+
+      randomQuote: {
         type: Number,
         value: 0
+      },
+
+      quotes: {
+        type: Array
+      },
+
+      loading: {
+        type: Boolean,
+        value: true
+      },
+
+      dbVersion: {
+        type: String,
+        value: "615038c00cd4e05e931e3235e82f396b"
       }
     };
   }
 
-  nextQuote() {
-    this.selected += 1;
-  }
-
-  prevQuote() {
-    this.selected -= 1;
-  }
-
-  lengthOf(cacheQuotes) {
-    return cacheQuotes.quotes.length;
-  }
-
-  noNextPage(selected, cacheQuotes) {
-    if (cacheQuotes) {
-      return selected >= this.lengthOf(this.cacheQuotes);
-    }
-  }
-
-  noPrevPage(selected) {
-    return this.selected <= 0;
-  }
-
-  inc(value, by) {
-    return value + by;
+  static get observers() {
+    return [];
   }
 
   random() {
-    this.selected = Math.round(Math.random() * this.lengthOf(this.cacheQuotes));
+    let selected = Math.floor(Math.random() * this.quotes.length);
+    this.randomQuote = this.quotes[selected];
+  }
+
+  updateUI(quotes) {
+    this.quotes = quotes;
+    this.random();
+    this.loading = false;
+  }
+
+  constructor() {
+    super();
+    firebase.database()
+      .ref("/quotes/" + this.dbVersion)
+      .once("value").then((snap) =>  {
+        this.updateUI(snap.val());
+      });
   }
 }
 
