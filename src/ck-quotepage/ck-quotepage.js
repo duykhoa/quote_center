@@ -64,7 +64,7 @@ class CkQuotepage extends PolymerElement {
 
     <div>
       <p>[[randomQuote.body]]</p>
-      <h5>Jim Rohn</h5>
+      <h5>[[randomQuote.author]]</h5>
     </div>
 
     <div role="navigation">
