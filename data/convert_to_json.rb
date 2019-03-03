@@ -21,7 +21,7 @@ class ConvertToJson
     write_json(concat_lines.shuffle)
     finished_at = Time.now
 
-    $stdout << "*** Done! Finishing in #{ finished_at - start_at}.\n*** Total quotes is #{ concat_lines.length }\nExitting.\n"
+    $stdout << "*** Done! Finishing in #{ finished_at - start_at }.\n*** Total quotes is #{ concat_lines.length }\nExitting.\n"
   end
 
   def write_json(concat_lines)

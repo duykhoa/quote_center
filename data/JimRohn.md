@@ -2,9 +2,6 @@ Walk away from 97 percent, don't talk like they talk, don't act like they act,
 don't go where they go, don't specialize most they specialize in. Throw away the
 blame list they are blaming to.
 
-You say will it be simple as getting a library card, and join the 3%, the answer is
-of course
-
 Take charge of your own life, take charge of your own days, take charge of your
 own conversations, take charge of your own family, take charge of your own
 possibility.
@@ -68,10 +65,6 @@ Thinking 1 quarter 2 quarter, no I just give you 1 quarter... that'll affect you
 the rest of the day. The rest of the day you look down, see the great shoeshine,
 and say "I've gotta be cheap. One lousy quarter".
 
-If you go for 2 quarters, you can't believe, the extra happiness you can buy for
-just an extra quarter. That's called studying and practicing the art of lifestyle,
-which means living well.
-
 First time I gave a talk, I stood up, my mind said "Back down". You know I've
 been through the whole deal. Open my mouth, nothing come out for a while... But I
 am telling you I got through it and I did it again, and I got through it and I
@@ -80,10 +73,8 @@ did it again and I got through it.
 Wish for away the winter, which is called naive. Wish for the skill, wish for the
 strength, wish for the wisdom.
 
-Life is a candle in a winter. It's fragile, it's brief. Whatever you are gonna do
+Life is like a candle in a wind. It's fragile, it's brief. Whatever you are gonna do
 you are gonna get out of it, don't just let it passes away.
-
-They will take it, unless you prevent it. Summer time is an interesting time.
 
 You've gotta deal with the negative as well as the positive.
 
@@ -105,27 +96,15 @@ Some people don't do well because they don't feel well.
 
 Don't be a follower, be a student.
 
-Can't live on mental candy.
-
-Someone says I just read postitive stuffs. That's too second grade.
-
 We intend to do something when the idea is right. We intend to when the
 emotion is high. But not if you don't translate it to action, very soon now the
 intense starts diminish diminish diminish. And a month from now, it's cold. And a
 year from now, can't be found.
 
-Some body talks about good health and you stir. Right, I need to get a book on
-nutrition before the idea passes and before the emotion gets cold. Go for the
-book, start a library, start the process.
-
 Every new discipline affects the rest.
 
 Life changed doesn't started with inspiration. Life changed starts with
 education.
-
-Someone says: just motivate this guy, he will be alright. Just motivate him, get
-him turn on. Probably not. The guy is idiot, you motivate him. Now you've got to
-motivate an idiot.
 
 The activity is a miracle working piece. The miracle is something we don't understand
 how it work, doesn't mean it doesn't work.
@@ -149,10 +128,6 @@ Wisdom in the world is available, change you life, change your future,
 developing any skill you want is available, earn any kind of income you want,
 have all the treasure you want, equity you want, relationship and family you want.
 
-Everything that you want is available. And the wisdom of the world that helps
-you get it, haven't read any book in the last 90 days. My teacher said, Mr. Rohn,
-you've messed up.
-
 Let result teaches you a great deal about your own activities, your own attitude
 and your own philosophy.
 
@@ -163,7 +138,7 @@ see it everyday. If you need some little additional information, you just need t
 put there: I'm forty and broke.
 
 Don't wish it was easier, wish you was better. Don't wish for less problems, wish
-for more skills. Don’t wish for less challenge, wish for more wisdom.
+for more skills. Don't wish for less challenge, wish for more wisdom.
 
 How are you doing, I say I don't know, let's count.
 
@@ -176,8 +151,8 @@ you can make a fortune.
 
 Life and business is like the seasons.
 
-The best motivation is self-motivation. The guy says, ‘I wish someone would come
-by and turn me on.’ What if they don’t show up? You’ve got to have a better plan
+The best motivation is self-motivation. The guy says, "I wish someone would come
+by and turn me on." What if they don't show up? You've got to have a better plan
 for your life.
 
 Without a sense of urgency, desire loses its value.
@@ -195,7 +170,7 @@ philosophy.
 It is not what happens that determines the major part of your future. What
 happens, happens to us all. It is what you do about what happens that counts.
 
-We must all suffer one of two things: the pain of discipline or the pain of regret
+We must all suffer one of two things: the pain of discipline or the pain of regret.
 
 The challenge of leadership is to be strong, but not rude; be kind, but not weak;
 be bold, but not a bully; be thoughtful, but not lazy; be humble, but not timid;
@@ -208,15 +183,13 @@ If you are not willing to risk the unusual, you will have to settle for the ordi
 
 Motivation is what gets you started. Habit is what keeps you going.
 
-Don’t join an easy crowd; you won’t grow. Go where the expectations and the demands to perform are high.
-
-Learn how to be happy with what you have while you pursue all that you want.
+Don't join an easy crowd; you won't grow. Go where the expectations and the demands to perform are high.
 
 Whatever good things we build end up building us.
 
 You must take personal responsibility. You cannot change the circumstances, the seasons, or the wind, but you can change yourself. That is something you have charge of.
 
-If you don't like how things are, change it! You're not a tree.
+If you don't like how things are, change it!
 
 Character isn't something you were born with and can't change, like your fingerprints. It's something you weren't born with and must take responsibility for forming.
 
@@ -230,13 +203,13 @@ Happiness is not something you postpone for the future; it is something you desi
 
 If you don't design your own life plan, chances are you'll fall into someone else's plan. And guess what they have planned for you? Not much.
 
-Formal education will make you a living self-education will make you a fortune.
+Formal education will make you a living. Self-education will make you a fortune.
 
 If someone is going down the wrong road, he doesn't need motivation to speed him up. What he needs is education to turn him around.
 
 Take time to gather up the past so that you will be able to draw from your experience and invest them in the future.
 
-Failure is not a single, cataclysmic event. You don't fail overnight. Instead, failure is a few errors in judgement, repeated every day.
+Failure is not a single cataclysmic event. You don't fail overnight. Instead, failure is a few errors in judgement, repeated every day.
 
 Failure is simply a few errors in judgment, repeated every day.
 
@@ -246,17 +219,25 @@ Take care of your body. It's the only place you have to live.
 
 Words do two major things: They provide food for the mind and create light for understanding and awareness.
 
-Let others lead small lives, but not you. Let others argue over small things, but not you. Let others cry over small hurts, but not you. Let others leave their future in someone else's hands, but not you.
+Let others lead small lifes, but not you.
+Let others argue over small things, but not you.
+Let others cry over small hurts, but not you.
+Let others leave their future in someone else's hands, but not you.
 
 A good objective of leadership is to help those who are doing poorly to do well and to help those who are doing well to do even better.
 
-If you go to work on your goals, your goals will go to work on you. If you go to work on your plan, your plan will go to work on you. Whatever good things we build end up building us.
+If you go to work on your goals, your goals will go to work on you.
+If you go to work on your plan, your plan will go to work on you.
+Whatever good things we build end up building us.
 
 Ideas can be life-changing. Sometimes all you need to open the door is just one more good idea.
 
 Whoever renders service to many puts himself in line for greatness - great wealth, great return, great satisfaction, great reputation, and great joy.
 
-Learning is the beginning of wealth. Learning is the beginning of health. Learning is the beginning of spirituality. Searching and learning is where the miracle process all begins.
+Learning is the beginning of wealth.
+Learning is the beginning of health.
+Learning is the beginning of spirituality.
+Searching and learning is where the miracle process all begins.
 
 Affirmation without discipline is the beginning of delusion.
 
@@ -316,93 +297,104 @@ Two parts of the labor: One do what you can, Two do the best you can.
 What am I not doing that easy to do, that could greatly change my health, my
 wealth?
 
-If you help your company make a bilion dollars, will they pay you 52 milions. The
+If you help your company make a bilion dollars, will they pay you 52 milions? The
 answer is ofcourse. Why we would pay somebody only 4$/hour, they aren't valuable
 to the market place.
 
-Market place which is call reality. Realitiy is, if you aren't very valuable, you
+Market place which is called reality. Realitiy is, if you aren't very valuable, you
 don't get much money.
 
 Because there are just a few springs, handful of springs, so take advantage
-quickly quickly, don't just let the time passes
+quickly quickly, don't just let the time passes.
 
-Don't trust your memory
+Don't trust your memory.
 
-Whereever you are, be there.
+Wherever you are, be there.
 
 Casualness leads to casualties.
 
-The problem isn’t that things cost too much. The problem is that you can’t afford it
+The problem isn't that things cost too much. The problem is that you can't afford it.
 
 Success is not to be pursued; it is to be attracted by the person you become.
 
-Failure is not a single, cataclysmic event. You don’t fail overnight. Instead, failure is a few errors in judgment, repeated every day.
+Failure is not a single, cataclysmic event. You don't fail overnight. Instead, failure is a few errors in judgment, repeated every day.
 
-Don’t take the casual approach to life. Casualness leads to casualties.
+Don't take the casual approach to life. Casualness leads to casualties.
 
 Success is the study of the obvious. Everyone should take Obvious I and Obvious II in school.
 
-It’s too bad failures don’t give seminars. Wouldn’t that be valuable? If you meet a guy who has messed up his life for forty years, you’ve just got to say, “John, if I bring my journal and promise to take good notes, would you spend a day with me?”
-
 Success is not so much what we have as it is what we are.
 
-Success is 20% skills and 80% strategy. You might know how to read, but more importantly, what’s your plan to read?
+Success is 20% skills and 80% strategy. You might know how to read, but more importantly, what's your plan to read?
 
 Average people look for ways of getting away with it; successful people look for ways of getting on with it.
 
 You must get good at one of two things: sowing in the spring or begging in the fall.
 
-God has the tough end of the deal. What if instead of planting the seed you had to make the tree? That would keep you up late at night, trying to figure that one out.
+God has the tough end of the deal.
+What if instead of planting the seed you had to make the tree? That would keep you up late at night, trying to figure that one out.
 
-Plant, don’t chant.
+Plant, don't chant.
 
-One of my good friends always says, “Things don’t just happen; things happen just.”
+"Things don't just happen; things happen just."
 
-The soil says, “Don’t bring me your need, bring me your seed.”
+The soil says, "Don't bring me your need, bring me your seed."
 
-How much should you earn? As much as you possibly can. It doesn’t matter whether you earn $10,000 a year or $100,000 a year as long as you’ve done the best you can.
+How much should you earn? As much as you possibly can.
+It doesn't matter whether you earn $10,000 a year or $100,000 a year, as long as you've done the best you can.
 
-The man says, “If I had a fortune, I’d take good care of it. But I only have a paycheck and I don’t know where it all goes.” Wouldn’t you love to have him running your company?
+The man says, "If I had a fortune, I'd take good care of it. But I only have a paycheck and I don't know where it all goes."
+Wouldn't you love to have him running your company?
 
-If you wish to have power and influence over the many, be faithful (disciplined) when there are just a few. If you have a few employees, a few distributors, a few people, that’s the time to stay in touch and be totally absorbed – when there is just a few.
+If you wish to have power and influence over the many,
+be faithful (disciplined) when there are just a few.
+If you have a few employees, a few distributors, a few people, that's the time to stay in touch and be totally absorbed – when there is just a few.
 
-Start from wherever you are and with whatever you’ve got.
+Start from wherever you are and with whatever you've got.
 
-Don’t wish it was easier; wish you were better. Don’t wish for less problems; wish for more skills. Don’t wish for less challenges; wish for more wisdom.
+Don't wish it was easier, wish you were better.
+Don't wish for less problems; wish for more skills. Don't wish for less challenges; wish for more wisdom.
 
 You must either modify your dreams or magnify your skills.
 
-You can cut down a tree with a hammer, but it takes about 30 days. If you trade the hammer for an ax, you can cut it down in about 30 minutes. The difference between 30 days and 30 minutes is skill.
+You can cut down a tree with a hammer, but it takes about 30 days.
+If you trade the hammer for an ax, you can cut it down in about 30 minutes.
+The difference between 30 days and 30 minutes is skill.
 
 The key to life is to become skillful enough to be able to do rewarding things.
 
 Learn to hide your need and show your skill.
 
-To succeed in sales, simply talk to lots of people every day. And here’s what’s exciting – there are lots of people!
+To succeed in sales, simply talk to lots of people every day. And here's what's exciting – there are lots of people!
 
-Practice is just as valuable as a sale. The sale will make you a living; the skill will make you a fortune.
+Practice is just as valuable as a sale.
+The sale will make you a living; the skill will make you a fortune.
 
-Selling is a person-to-person business. You cannot send the sales manual out to make the sale. Sales manuals have no legs and no voice.
+Selling is a person-to-person business. You cannot send the sales manual out to make the sale.
+Sales manuals have no legs and no voice.
 
 In the sales profession the real work begins after the sale is made.
 
-Sales people should take lessons from their kids. What does the word “no” mean to a child? Almost nothing.
+Sales people should take lessons from their kids. What does the word "no" mean to a child? Almost nothing.
 
 Even if you are new in sales, you can make up in numbers what you lack in skills.
 
 At the end of each day, you should play back the tapes of your performance. The results should either applaud you or prod you.
 
-The greatest form of maturity is at harvest time. This is when we must learn how to reap without complaint if the amounts are small and how to reap without apology if the amounts are big.
+The greatest form of maturity is at harvest time.
+This is when we must learn how to reap without complaint if the amounts are small and how to reap without apology if the amounts are big.
 
-Life asks us to make measurable progress in reasonable time. That’s why they make those fourth grade chairs so small © so you won’t fit in them at age twenty-five!
+Life asks us to make measurable progress in reasonable time.
+That's why they make those fourth grade chairs so small © so you won't fit in them at age twenty-five!
 
-There are some things you don’t have to know how it works – only that it works. While some people are studying the roots, others are picking the fruit. It just depends on which end of this you want to get in on.
+There are some things you don't have to know how it works – only that it works. While some people are studying the roots, others are picking the fruit.
+It just depends on which end of this you want to get in on.
 
 To solve any problem, there are three questions to ask yourself: First, what could I do? Second, what could I read? And third, whom could I ask?
 
-The real problem is usually two or three questions deep. If you want to go after someone’s problem, be aware that most people aren’t going to reveal what the real problem is after the first question.
+The real problem is usually two or three questions deep. If you want to go after someone's problem, be aware that most people aren't going to reveal what the real problem is after the first question.
 
-Neil Armstrong once said, “You only have to solve two problems when going to the moon: first, how to get there; and second, how to get back. The key is don’t leave until you have solved both problems.”
+Neil Armstrong once said, "You only have to solve two problems when going to the moon: first, how to get there; and second, how to get back. The key is don't leave until you have solved both problems."
 
 Never attack a problem without also presenting a solution.
 
@@ -410,61 +402,72 @@ The best place to solve a problem is on paper.
 
 I find it fascinating that most people plan their vacations with better care than they plan their lives. Perhaps that is because escape is easier than change.
 
-If you don’t design your own life plan, chances are you’ll fall into someone else’s plan. And guess what they may have planned for you? Not much.
+If you don't design your own life plan, chances are you'll fall into someone else's plan. And guess what they may have planned for you? Not much.
 
-The reason why most people face the future with apprehension instead of anticipation is because they don’t have it well designed.
+The reason why most people face the future with apprehension instead of anticipation is because they don't have it well designed.
 
-The guy says, “When you work where I work, by the time you get home, it’s late. You’ve got to have a bite to eat, watch a little TV, relax and get to bed. You can’t sit up half the night planning, planning, planning.” And he’s the same guy who is behind on his car payment!
+The guy says: "When you work where I work, by the time you get home, it's late.
+You've got to have a bite to eat, watch a little TV, relax and get to bed.
+You can't sit up half the night planning, planning, planning."
+And he's the same guy who is behind on his car payment!
 
-Don’t become a victim of yourself. Forget about the thief waiting in the alley; what about the thief in your mind?
+Don't become a victim of yourself. Forget about the thief waiting in the alley; what about the thief in your mind?
 
 It is not what happens that determines the major part of your future. What happens, happens to us all. It is what you do about what happens that counts.
 
-You say, “The country is messed up.” That’s like cursing the soil and the seed and the sunshine and the rain, which is all you’ve got. Don’t curse all you’ve got. When you get your own planet, you can rearrange this whole deal. This one you’ve got to take like it comes.
+You say, "The country is messed up." That's like cursing the soil and the seed and the sunshine and the rain, which is all you've got.
+Don't curse all you've got. When you get your own planet, you can rearrange this whole deal. This one you've got to take like it comes.
 
-Walk away from the 97% crowd. Don’t use their excuses. Take charge of your own life.
+Walk away from the 97% crowd. Don't use their excuses. Take charge of your own life.
 
-Take advice, but not orders. Only give yourself orders. Abraham Lincoln once said, “Since I will be no one’s slave, I will be no one’s master.”
+Take advice, but not orders. Only give yourself orders. Abraham Lincoln once said, "Since I will be no one's slave, I will be no one's master."
 
-You must take personal responsibility. You cannot change the circumstances, the seasons, or the wind, but you can change yourself. That is something you have charge of. You don’t have charge of the constellations, but you do have charge of whether you read, develop new skills, and take new classes.
+You must take personal responsibility. You cannot change the circumstances, the seasons, or the wind, but you can change yourself.
+That is something you have charge of.
+You don't have charge of the constellations, but you do have charge of whether you read, develop new skills, and take new classes.
 
-Your paycheck is not your employer’s responsibility, it’s your responsibility. Your employer has no control over your value, but you do.
+Your paycheck is not your employer's responsibility, it's your responsibility. Your employer has no control over your value, but you do.
 
 Economic disaster begins with a philosophy of doing less and wanting more.
 
 If you want to amend your errors, you must begin by amending your philosophy.
 
-The only thing worse than not reading a book in the last ninety days is not reading a book in the last ninety days and thinking that it doesn’t matter.
+The only thing worse than not reading a book in the last ninety days is not reading a book in the last ninety days and thinking that it doesn't matter.
 
 Your personal philosophy is the greatest determining factor in how your life works out.
 
-Initial response illustrates a great deal about someone’s personal philosophy.
+Initial response illustrates a great deal about someone's personal philosophy.
 
 Only human beings can reorder their lives any day they choose by refining their philosophy.
 
 The key factor that will determine your financial future is not the economy; the key factor is your philosophy.
 
-Don’t borrow someone else’s plan. Develop your own philosophy and it will lead you to unique places.
+Don't borrow someone else's plan. Develop your own philosophy and it will lead you to unique places.
 
-If you learn to set a good sail, the wind that blows will always take you to the dreams you want, the income you want, and the treasures of mind, purse, and soul you want.
+If you learn to set a good sail, the wind that blows will always take you to the dreams you want,
+the income you want, and the treasures of mind, purse, and soul you want.
 
 Your philosophy determines whether you will go for the disciplines or continue the errors.
 
 Philosophy is the sum total of all that you know and what you decide is valuable.
 
-To attract attractive people, you must be attractive. To attract powerful people, you must be powerful. To attract committed people, you must be committed. Instead of going to work on them, you go to work on yourself. If you become, you can attract.
+To attract attractive people, you must be attractive. To attract powerful people, you must be powerful.
+To attract committed people, you must be committed.
+Instead of going to work on them, you go to work on yourself. If you become, you can attract.
 
-We can have more than we’ve got because we can become more than we are.
+We can have more than we've got because we can become more than we are.
 
-The big challenge is to become all that you have the possibility of becoming. You cannot believe what it does to the human spirit to maximize your human potential and stretch yourself to the limit.
+The big challenge is to become all that you have the possibility of becoming.
+You cannot believe what it does to the human spirit to maximize your human potential and stretch yourself to the limit.
 
-Pity the man who inherits a million dollars and who isn’t a millionaire. Here’s what would be pitiful: If your income grew and you didn’t.
+Pity the man who inherits a million dollars and who isn't a millionaire.
+Here's what would be pitiful: If your income grew and you didn't.
 
-The most important question to ask on the job is not “What am I getting?” The most important question to ask on the job is “What am I becoming?”
+The most important question to ask on the job is not "What am I getting?" The most important question to ask on the job is "What am I becoming?"
 
 It is hard to keep that which has not been obtained through personal development.
 
-After you become a millionaire, you can give all of your money away because what’s important is not the million dollars; what’s important is the person you have become in the process of becoming a millionaire.
+After you become a millionaire, you can give all of your money away because what's important is not the million dollars; what's important is the person you have become in the process of becoming a millionaire.
 
 Income seldom exceeds personal development.
 
@@ -478,37 +481,37 @@ The twin killers of success are impatience and greed.
 
 How long should you try? Until.
 
-Some people plant in the spring and leave in the summer. If you’ve signed up for a season, see it through. You don’t have to stay forever, but at least stay until you see it through.
+Some people plant in the spring and leave in the summer. If you've signed up for a season, see it through. You don't have to stay forever, but at least stay until you see it through.
 
 We must all wage an intense, lifelong battle against the constant downward pull. If we relax, the bugs and weeds of negativity will move into the garden and take away everything of value.
 
 Humility is a virtue; timidity is a disease.
 
-If you spend five minutes complaining, you have just wasted five minutes. If you continue complaining, it won’t be long before they haul you out to a financial desert and there let you choke on the dust of your own regret.
+If you spend five minutes complaining, you have just wasted five minutes. If you continue complaining, it won't be long before they haul you out to a financial desert and there let you choke on the dust of your own regret.
 
 You cannot take the mild approach to the weeds in your mental garden. You have got to hate weeds enough to kill them. Weeds are not something you handle; weeds are something you devastate.
 
-Let others lead small lives, but not you. Let others argue over small things, but not you. Let others cry over small hurts, but not you. Let others leave their future in someone else’s hands, but not you.
+Let others lead small lives, but not you. Let others argue over small things, but not you. Let others cry over small hurts, but not you. Let others leave their future in someone else's hands, but not you.
 
 Lifestyle is the art of discovering ways to live uniquely.
 
-Some people have learned to earn well, but they haven’t learned to live well.
+Some people have learned to earn well, but they haven't learned to live well.
 
 Earn as much money as you possibly can and as quickly as you can. The sooner you get money out of the way, the sooner you will be able to get to the rest of your problems in style.
 
-There are two parts to influence: first, influence is powerful; and second, influence is subtle. You wouldn’t let someone push you off course, but you might let someone nudge you off course and not even realize it.
+There are two parts to influence: first, influence is powerful; and second, influence is subtle. You wouldn't let someone push you off course, but you might let someone nudge you off course and not even realize it.
 
 We need a variety of input and influence and voices. You cannot get all the answers to life and business from one person or from one source.
 
 Attitude is greatly shaped by influence and association.
 
-Don’t spend most of your time on the voices that don’t count. Tune out the shallow voices so that you will have more time to tune in the valuable ones.
+Don't spend most of your time on the voices that don't count. Tune out the shallow voices so that you will have more time to tune in the valuable ones.
 
-“No” puts distance between you and the wrong influence.
+"No" puts distance between you and the wrong influence.
 
 You must constantly ask yourself these questions: Who am I around? What are they doing to me? What have they got me reading? What have they got me saying? Where do they have me going? What do they have me thinking? And most important, what do they have me becoming? Then ask yourself the big question: Is that okay?
 
-Don’t join an easy crowd; you won’t grow. Go where the expectations and the demands to perform are high.
+Don't join an easy crowd; you won't grow. Go where the expectations and the demands to perform are high.
 
 Some people you can afford to spend a few minutes with, but not a few hours.
 
@@ -524,7 +527,7 @@ When a new idea comes our way, we must put it on our mental scales and weigh it 
 
 One of the secrets to success is ideas mixed with inspiration.
 
-Nothing is more powerful for your future than being a gatherer of good ideas and information. That’s called doing your homework.
+Nothing is more powerful for your future than being a gatherer of good ideas and information. That's called doing your homework.
 
 Learn how to be happy with what you have while you pursue all that you want.
 
@@ -542,21 +545,21 @@ The major reason for setting a goal is for what it makes of you to accomplish it
 
 When Andrew Carnegie died, they discovered a sheet of paper upon which he had written one of the major goals of his life: to spend the first half of his life accumulating money and to spend the last half of his life giving it all away. And he did!
 
-Some people are disturbed by those tough days because all they have is the days. They haven’t designed or described or defined the future.
+Some people are disturbed by those tough days because all they have is the days. They haven't designed or described or defined the future.
 
-Goals. There’s no telling what you can do when you get inspired by them. There’s no telling what you can do when you believe in them. And there’s no telling what will happen when you act upon them.
+Goals. There's no telling what you can do when you get inspired by them. There's no telling what you can do when you believe in them. And there's no telling what will happen when you act upon them.
 
 We all need lots of powerful long-range goals to help us past the short-term obstacles.
 
 The ultimate reason for setting goals is to entice you to become the person it takes to achieve them.
 
-Don’t set your goals too low. If you don’t need much, you won’t become much.
+Don't set your goals too low. If you don't need much, you won't become much.
 
 If you go to work on your goals, your goals will go to work on you. If you go to work on your plan, your plan will go to work on you. Whatever good things we build end up building us.
 
 We all have two choices: We can make a living or we can design a life.
 
-Shortly after I met my mentor he asked me, “Mr. Rohn, how much money have you saved and invested over the last six years?” And I said, “None.” He then asked, “Who sold you on that plan?”
+Shortly after I met my mentor he asked me, "Mr. Rohn, how much money have you saved and invested over the last six years?" And I said, "None." He then asked, "Who sold you on that plan?"
 
 It is better to be a lender than a spender.
 
@@ -566,21 +569,21 @@ Financial independence is the ability to live from the income of your own person
 
 If you depend on your company to take care of your retirement, your future income will be divided by five. Take care of it yourself, and you can multiply your future income by five.
 
-I remember saying to my mentor, “If I had more money, I would have a better plan.” He quickly responded, “I would suggest that if you had a better plan, you would have more money.” You see, it’s not the amount that counts; it’s the plan that counts.
+I remember saying to my mentor, "If I had more money, I would have a better plan." He quickly responded, "I would suggest that if you had a better plan, you would have more money." You see, it's not the amount that counts; it's the plan that counts.
 
-If you were to show me your current financial plan, would I get so excited by it that I would go across the country and lecture on it? If the answer is no, then here’s my question: “Why not”? Why wouldn’t you have a superior financial plan that is taking you to the places you want to go?
+If you were to show me your current financial plan, would I get so excited by it that I would go across the country and lecture on it? If the answer is no, then here's my question: "Why not"? Why wouldn't you have a superior financial plan that is taking you to the places you want to go?
 
-I used to say, “Things cost too much.” Then my teacher straightened me out on that by saying, “The problem isn’t that things cost too much. The problem is that you can’t afford it.” That’s when I finally understood that the problem wasn’t “it” The problem was “me.”
+I used to say, "Things cost too much." Then my teacher straightened me out on that by saying, "The problem isn't that things cost too much. The problem is that you can't afford it." That's when I finally understood that the problem wasn't "it" The problem was "me."
 
-The Bible says that it is hard for a rich man to enter into the kingdom of heaven. It doesn’t say that it is impossible!
+The Bible says that it is hard for a rich man to enter into the kingdom of heaven. It doesn't say that it is impossible!
 
 Take time to gather up the past so that you will be able to draw from your experiences and invest them in the future.
 
-Don’t let the learning from your own experiences take too long. If you have been doing it wrong for the last ten years, I would suggest that’s long enough!
+Don't let the learning from your own experiences take too long. If you have been doing it wrong for the last ten years, I would suggest that's long enough!
 
 Life is not just the passing of time. Life is the collection of experiences and their intensity.
 
-It’s easy to carry the past as a burden instead of a school. It’s easy to let it overwhelm you instead of educate you.
+It's easy to carry the past as a burden instead of a school. It's easy to let it overwhelm you instead of educate you.
 
 Be like a sponge when it comes to each new experience. If you want to be able to express it well, you must first be able to absorb it well.
 
@@ -594,7 +597,7 @@ Enterprise is the hope of our future.
 
 Profits are better than wages. Wages make you a living; profits make you a fortune.
 
-We all know a variety of ways to make a living. What’s even more fascinating is figuring out ways to make a fortune.
+We all know a variety of ways to make a living. What's even more fascinating is figuring out ways to make a fortune.
 
 Kids ought to have two bicycles, one to ride and one to rent.
 
@@ -604,15 +607,15 @@ Our emotions need to be as educated as our intellect. It is important to know ho
 
 Civilization is the intelligent management of human emotions.
 
-Measure your emotions. You don’t need an atomic explosion for a minor point.
+Measure your emotions. You don't need an atomic explosion for a minor point.
 
-Women have an incredible ability to pick up on emotional signals. For example, there are some wolves that are so clever they have learned to dress up like sheep. Man says, “Looks like a sheep. Talks like a sheep.” Woman says, “Ain’t no sheep!”
+Women have an incredible ability to pick up on emotional signals. For example, there are some wolves that are so clever they have learned to dress up like sheep. Man says, "Looks like a sheep. Talks like a sheep." Woman says, "Ain't no sheep!"
 
 Discipline is the bridge between goals and accomplishment.
 
 We must all suffer from one of two pains: the pain of discipline or the pain of regret. The difference is discipline weighs ounces while regret weighs tons.
 
-All disciplines affect each other. Mistakenly the man says, “This is the only area where I let down.” Not true. Every let down affects the rest. Not to think so is naive.
+All disciplines affect each other. Mistakenly the man says, "This is the only area where I let down." Not true. Every let down affects the rest. Not to think so is naive.
 
 Discipline is the foundation upon which all success is built. Lack of discipline inevitably leads to failure.
 
@@ -624,11 +627,11 @@ One discipline always leads to another discipline.
 
 Affirmation without discipline is the beginning of delusion.
 
-You don’t have to change that much for it to make a great deal of difference. A few simple disciplines can have a major impact on how your life works out in the next 90 days, let alone in the next 12 months or the next 3 years.
+You don't have to change that much for it to make a great deal of difference. A few simple disciplines can have a major impact on how your life works out in the next 90 days, let alone in the next 12 months or the next 3 years.
 
 The least lack of discipline starts to erode our self-esteem.
 
-Humans have the remarkable ability to get exactly what they must have. But there is a difference between a “must” and a “want.”
+Humans have the remarkable ability to get exactly what they must have. But there is a difference between a "must" and a "want."
 
 When you know what you want, and you want it bad enough, you will find a way to get it.
 
@@ -638,27 +641,27 @@ Without a sense of urgency, desire loses its value.
 
 Better understated than overstated. Let people be surprised that it was more than you promised and easier than you said.
 
-For effective communication, use brevity. Jesus said, “Follow me.” Now that’s brief! He could be brief because of all that he was that he didn’t have to say.
+For effective communication, use brevity. Jesus said, "Follow me." Now that's brief! He could be brief because of all that he was that he didn't have to say.
 
 You cannot speak that which you do not know. You cannot share that which you do not feel. You cannot translate that which you do not have. And you cannot give that which you do not possess. To give it and to share it, and for it to be effective, you first need to have it. Good communication starts with good preparation.
 
 Learn to express, not impress.
 
-Be brief on the logic and reason portion of your presentation. There are probably about a thousand facts about an automobile, but you don’t need them all to make a decision. About a half dozen will do.
+Be brief on the logic and reason portion of your presentation. There are probably about a thousand facts about an automobile, but you don't need them all to make a decision. About a half dozen will do.
 
 Effective communication is 20% what you know and 80% how you feel about what you know.
 
 What is powerful is when what you say is just the tip of the iceberg of what you know.
 
-It’s not the matter you cover so much as it is the manner in which you cover it.
+It's not the matter you cover so much as it is the manner in which you cover it.
 
-For effective communication, use brevity. Jesus said, “Follow me.” Now that’s brief! He could be brief because of all that he was that he didn’t have to say.
+For effective communication, use brevity. Jesus said, "Follow me." Now that's brief! He could be brief because of all that he was that he didn't have to say.
 
 You cannot speak that which you do not know. You cannot share that which you do not feel. You cannot translate that which you do not have. And you cannot give that which you do not possess. To give it and to share it, and for it to be effective, you first need to have it. Good communication starts with good preparation.
 
-The goal of effective communication should be for listeners to say, “Me, too!” verses “So what?”
+The goal of effective communication should be for listeners to say, "Me, too!" verses "So what?"
 
-One of the best places to start to turn your life around is by doing whatever appears on your mental “I should” list.
+One of the best places to start to turn your life around is by doing whatever appears on your mental "I should" list.
 
 Every life form seems to strive to its maximum except human beings. How tall will a tree grow? As tall as it possibly can. Human beings, on the other hand, have been given the dignity of choice. You can choose to be all or you can choose to be less. Why not stretch up to the full measure of the challenge and see what all you can do?
 
@@ -666,31 +669,31 @@ You cannot change your destination overnight, but you can change your direction 
 
 Decision making can sometimes seem like inner civil war.
 
-Don’t say, “If I could, I would.” Say, “If I can, I will.”
+Don't say, "If I could, I would." Say, "If I can, I will."
 
-It doesn’t matter which side of the fence you get off on sometimes. What matters most is getting off!
+It doesn't matter which side of the fence you get off on sometimes. What matters most is getting off!
 
 You cannot make progress without making decisions.
 
 We generally change ourselves for one of two reasons: inspiration or desperation.
 
-If you don’t like how things are, change it! You’re not a tree.
+If you don't like how things are, change it! You're not a tree.
 
-I used to say, “I sure hope things will change.” Then I learned that the only way things are going to change for me is when I change.
+I used to say, "I sure hope things will change." Then I learned that the only way things are going to change for me is when I change.
 
 Success is neither magical nor mysterious. Success is the natural consequence of consistently applying basic fundamentals.
 
-There are no new fundamentals. You’ve got to be a little suspicious of someone who says, “I’ve got a new fundamental.” That’s like someone inviting you to tour a factory where they are manufacturing antiques.
+There are no new fundamentals. You've got to be a little suspicious of someone who says, "I've got a new fundamental." That's like someone inviting you to tour a factory where they are manufacturing antiques.
 
-Some things you have to do every day. Eating seven apples on Saturday night instead of one a day just isn’t going to get the job done.
+Some things you have to do every day. Eating seven apples on Saturday night instead of one a day just isn't going to get the job done.
 
 Success is nothing more than a few simple disciplines, practiced every day; while failure is simply a few errors in judgment, repeated every day. It is the accumulative weight of our disciplines and our judgments that leads us to either fortune or failure.
 
-Asking is the beginning of receiving. Make sure you don’t go to the ocean with a teaspoon. At least take a bucket so the kids won’t laugh at you.
+Asking is the beginning of receiving. Make sure you don't go to the ocean with a teaspoon. At least take a bucket so the kids won't laugh at you.
 
 There is no better opportunity to receive more than to be thankful for what you already have. Thanksgiving opens the windows of opportunity for ideas to flow your way.
 
-Resolve says, “I will.” The man says, “I will climb this mountain. They told me it is too high, too far, too steep, too rocky and too difficult. But it’s my mountain. I will climb it. You will soon see me waving from the top or dead on the side from trying.”
+Resolve says, "I will." The man says, "I will climb this mountain. They told me it is too high, too far, too steep, too rocky and too difficult. But it's my mountain. I will climb it. You will soon see me waving from the top or dead on the side from trying."
 
 Disgust and resolve are two of the great emotions that lead to change.
 
@@ -710,13 +713,13 @@ The greatest value in life is not what you get. The greatest value in life is wh
 
 Make sure that what you are doing is the product of your own conclusion.
 
-If you wish to be ruler over many, you’ve got to be faithful with a few.
+If you wish to be ruler over many, you've got to be faithful with a few.
 
 Be ready for tomorrow by doing all you can today.
 
 Make sure that what you are doing is the product of your own conclusion.
 
-If you wish to be ruler over many, you’ve got to be faithful with a few.
+If you wish to be ruler over many, you've got to be faithful with a few.
 
 Be ready for tomorrow by doing all you can today.
 
@@ -732,13 +735,13 @@ Discipline is a constant human awareness of a need for action and the conscious 
 
 Discipline is when you become aware of the need and take action. Procrastination is when if time passes between the awareness of need and the action.
 
-Most people choose today’s pleasure over tomorrow’s fortune.
+Most people choose today's pleasure over tomorrow's fortune.
 
 Value is the fruitful result of discipline, not hope.
 
 Learn all that you can so you can become all that you can become.
 
-Here’s one problem with drifting. You can’t drift your way to the top of the mountain.
+Here's one problem with drifting. You can't drift your way to the top of the mountain.
 
 Indecision is the thief of opportunity.
 
@@ -750,9 +753,9 @@ If you just sell, you can make a living. If you skillfully sell, you can make a 
 
 You can cut a tree down with a hammer. It takes about 30 days. If you trade the hammer for an axe, you can cut the tree down in about 30 minutes. The difference between the 30 days and the 30 minutes is the tool. And your best communication tool is your skill.
 
-Here’s what I call the best kept secret of the rich. I couldn’t believe when I found out that rich people have about 24 hours a day. And poor people have about 24 hours a day. Wouldn’t that drive you mad until you found out what the difference was?
+Here's what I call the best kept secret of the rich. I couldn't believe when I found out that rich people have about 24 hours a day. And poor people have about 24 hours a day. Wouldn't that drive you mad until you found out what the difference was?
 
-Make sure that what you finally do is a product of your own conclusions. That’s what valuable.
+Make sure that what you finally do is a product of your own conclusions. That's what valuable.
 
 We must all be students of consequences.
 
@@ -800,7 +803,7 @@ somebody else motivating you.
 
 The major problem is lack of an idea, not a problem. 
 
-I said to Mr. Show, I don't have any problem. He said that isn't a problem. The
+I said to Mr. Shoaff, I don't have money. He said that isn't a problem. The
 problem is, lack of an idea on how to create money and wealth.
 
 To get ideas, you need constant study of finding out.
@@ -901,19 +904,24 @@ gotta tell you something. It means the future isn't getting better by hope.
 
 The guy is 50 and he's broke, and he's still smiling. See that not good. 
 
-To learn any skill, you just got to go through it again and again and again
+To learn any skill, you just got to go through it again and again and again.
 
 I do one seminar about challenge to succeed, it's about 4 hours long and I can do it without any note.
-Every once in a while a person come and said: You lecture this evening for 4 hours without any note. How can you do that?
-I said it's very simple, I've done it a few thousand times.
+Every once in a while a person come and said: You lecture this evening for 4 hours without any note.
+How can you do that? I said it's very simple, I've done it a few thousand times.
 
-How long do you wanna to take to get good at what you do? You say not very long, then you got to do it often. Repetition starts the skill
+How long do you wanna to take to get good at what you do?
+You say not very long, then you got to do it often.
+Repetition starts the skill.
 
-Repetition with purpose. The purpose is to growth, and to change, to develop, to expand, to make progress.
+Repetition with purpose.
+The purpose is to growth, and to change, to develop, to expand, to make progress.
 
 I can forgive you for a mistake in judgement but I can't forgive you for a mistake in intense.
 
-I used to tell story too long too long. I get involved in long long stories on and on, and the time I hit the bunch line people forget how to start it. Now it doesn't make sense.
+I used to tell story too long too long.
+I get involved in long long stories on and on, and the time I hit the punch line people forget how to start it.
+Now it doesn't make sense.
 
 Here is why brevity is important, human attention span is short.
 
@@ -921,9 +929,14 @@ What you are adds so much weight to what you say that you don't need to say very
 
 Be a student of style, but don't just copy someone's style.
 
-How people speak well, be a student of that. And then, borrowing bit of pieces form people you admired from the way they communicate. Make sure all of that linked in to you and become your own distinctive style
+How people speak well, be a student of that.
+And then, borrowing bit of pieces form people you admired from the way they communicate.
+Make sure all of that linked in to you and become your own distinctive style.
 
-Say it well is a proper choice of words. To build my early vocabulary, I used to put three four words I didn't know on the car, put them up on sun visor. Soon enough, at the end of the day, I master 2 3 words.
+Say it well is a proper choice of words.
+
+To build my early vocabulary, I used to put three four words I didn't know on the car, put them up on sun visor.
+Soon enough, at the end of the day, I master 2 3 words.
 
 There is a relationship between vocabulary and behavior. The more limited the vocabulary, the more tendency the poor behavior.
 
@@ -936,9 +949,11 @@ simply because we lack of the practice of doing it every day.
 It's okay to send somebody flowers, but don't let flowers do all your talking. Here is why: flowers have a limited vocabulary.
 About the best flowers can say is: you remember or you care. That's about the best.
 
-Flowers don't say you do an incredible thing to me, no body in this world affects me like you do. Now see flowers talk but they don't say that. That you need to add in a card.
+Flowers don't say you do an incredible thing to me, no body in this world affects me like you do.
+Now see flowers talk but they don't say that. That you need to add in a card.
 
-So the next time you give flower, say: just so my flowers won't do all the talking, let me add. And then put the gift of words to work, to go along with the activity.
+So the next time you give flower, say: just so my flowers won't do all the talking, let me add.
+And then put the gift of words to work, to go along with the activity.
 
 Don't shoot a cannon to a rabbit. It's effective, but you'll have no more rabbit. It calls too much firepower.
 

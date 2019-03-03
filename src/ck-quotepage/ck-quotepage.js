@@ -117,9 +117,7 @@ class CkQuotepage extends PolymerElement {
     super();
     firebase.database()
       .ref("/quotes")
-      .once("value").then((snap) =>  {
-        this.updateUI(snap.val());
-      });
+      .on("value", snap =>  this.updateUI(snap.val()));
   }
 }
 
