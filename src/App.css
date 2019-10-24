@@ -1,0 +1,12 @@
+.Container {
+  display: grid;
+  grid-template-columns: repeat(12, auto [col-start]);
+}
+
+.Row {
+}
+
+.Col {
+  border: 1px dashed #ddd;
+  box-sizing: border-box;
+}

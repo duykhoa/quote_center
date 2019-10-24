@@ -1,18 +1,32 @@
 {
-  "name": "@polymer/quote_center",
-  "flat": true,
-  "version": "",
-  "main": "index.html",
+  "name": "quote_center",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "@polymer/iron-flex-layout": "^3.0.0-pre.1",
-    "@polymer/iron-pages": "^3.0.0-pre.1",
-    "@polymer/paper-button": "^3.0.0-pre.1",
-    "@polymer/paper-spinner": "^3.0.0-pre.1",
-    "@polymer/polymer": "^3.0.0-pre.1",
-    "@webcomponents/webcomponentsjs": "^2.0.0",
-    "firebase-functions": "^1.0.2",
-    "pouchdb": "^6.4.3",
-    "webcomponentsjs": "^1.0.2"
+    "firebase": "^7.2.1",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-scripts": "3.2.0"
   },
-  "devDependencies": {}
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
