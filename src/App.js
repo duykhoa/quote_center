@@ -1,16 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { GetQuotes } from './firebase_api/index';
+import { getQuotes } from './firebase_api/index';
 
 function App() {
-  GetQuotes(snap => {
+  getQuotes({}, snap => {
     console.log(snap);
   });
 
   return (
     <div className="Container">
-      a
     </div>
   );
 }
