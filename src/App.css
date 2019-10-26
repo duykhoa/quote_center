@@ -10,3 +10,8 @@
   border: 1px dashed #ddd;
   box-sizing: border-box;
 }
+
+ul.QuotesList {
+  list-style: none;
+  padding: 0
+}
