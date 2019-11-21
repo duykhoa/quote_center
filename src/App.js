@@ -2,47 +2,71 @@ import React, { Component } from 'react';
 import './App.css';
 import { getQuotes } from './firebase_api/index';
 import 'normalize.css/normalize.css';
+import _ from 'lodash';
 
 export default class App extends Component {
   constructor() {
     super();
-    this.state = { quotes: [], end: 3, start: 0 };
+    this.state = { quotes: [], firstNotificationText: "", firstButtonEnabled: true, firstButtonClicked: false, firstReplyNotificationText: "", offset: 0, limit: 0, displayQuote1: null };
   }
 
   componentDidMount() {
-    getQuotes({}, snap => {
-      this.setState({ quotes: snap });
+    getQuotes({}, snapVal => {
+      this.setState({ quotes: snapVal });
     });
   }
 
   render() {
-    const { quotes, start, end } = this.state;
-    const renderedQuotes = quotes.slice(start, end).map((quote, index) => <li key={index}>{quote.body}</li>)
+    const { offset, limit, quotes, firstNotificationText, firstButtonEnabled, firstButtonClicked, firstReplyNotificationText, displayQuote1 } = this.state;
+    let renderedQuotes = [];
 
     return (
       <>
-        <div className="formFields">
-          <label>Start</label>
-          <input defaultValue={this.state.start} onInput={(e) => {
-            const start = e.target.value;
-            start > 0 && start < quotes.length && this.setState({ start: start });
-          }} type="range" placeholder="start" min={0} max={quotes.length}></input>
-          {start}
+        <div>
+          <h1>There are many quotes, click until you find the one you like</h1>
+          <div>
+            <button
+              disabled={!firstButtonEnabled}
+              onClick={e => {
+                const offset = _.random(0, quotes.length);
+
+                this.setState({
+                  firstNotificationText: "You actually click this f* button! Ok, here is a quote",
+                  offset: offset, limit: 1,
+                  firstButtonEnabled: false,
+                  firstButtonClicked: true,
+                });
+              }}
+            >click</button>
+          </div>
+
+          <h2>{firstNotificationText}</h2>
         </div>
 
-        <div className="formFields">
-          <label>End</label>
-          <input defaultValue={this.state.end} onInput={(e) => {
-            const end = e.target.value;
-            end > 0 && end <= quotes.length && this.setState({ end: end });
-          }} type="range" placeholder="end" min={0} max={quotes.length}></input>
-          {end}
-        </div>
+        <div>
+          { quotes.slice(offset, offset + limit).map(q => (<q key={q.body}>{q.body}</q>)) }
 
-        <div className="Container">
-          <ul className="QuotesList">
-            {renderedQuotes}
-          </ul>
+          {
+            firstButtonClicked &&
+            (<div>
+              <p>Do you like it?</p>
+              <button
+                onClick={ e => {
+                  this.setState({firstReplyNotificationText: "yeah, you like the quote! I will show more then"});
+                }}
+              >yes</button>
+
+              <button
+                onClick={ e => {
+                  this.setState({firstReplyNotificationText: "Why don't you like it? It is Jim Rohn quotes you know?"});
+                }}
+              >no</button>
+            </div>)
+          }
+
+          {
+            firstReplyNotificationText && <p>{firstReplyNotificationText}</p>
+          }
         </div>
       </>
     );

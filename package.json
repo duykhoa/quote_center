@@ -5,6 +5,7 @@
   "dependencies": {
     "firebase": "^7.2.1",
     "idb": "^4.0.5",
+    "lodash": "^4.17.15",
     "normalize.css": "^8.0.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
@@ -18,6 +19,9 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "resolutions": {
+    "ajv": "6.8.1"
   },
   "browserslist": {
     "production": [

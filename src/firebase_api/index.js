@@ -1,22 +1,27 @@
-import * as firebase from "firebase";
+import firebase from 'firebase/app';
+import 'firebase/database';
+
 import { openDB } from 'idb';
 
 const getQuotes = async (options = {}, callback) => {
-  const db = (await indexedDB());
+  const db = await indexedDB();
   const ttl = 3600000;
   const lastUpdate = await db.get('quote', 'lastUpdate');
 
-  if (lastUpdate && (Date.now() - new Date(lastUpdate) > ttl)) {
-    initFireBase();
+  if (isExpiredCache(lastUpdate, ttl)) {
+    await initFireBase();
 
     firebase.database()
       .ref('/quotes')
       .on('value', async (snap) => {
-        const db = (await indexedDB());
+        let result = await snap.val();
 
-        db.put('quote', snap.val(), "quotes");
-        db.put('quote', new Date().valueOf(), "lastUpdate");
-        callback(snap.val());
+        if (result) {
+          const db = await indexedDB();
+          db.put('quote', result, "quotes");
+          db.put('quote', new Date().valueOf(), "lastUpdate");
+          callback(result);
+        }
       });
   } else {
     const quotes = await db.get('quote', 'quotes');
@@ -25,13 +30,12 @@ const getQuotes = async (options = {}, callback) => {
 };
 
 const initFireBase = (options) => {
-  const env = process.env;
-  const apiKey = env.REACT_APP_API_KEY;
-  const authDomain = env.REACT_APP_AUTH_DOMAIN;
-  const databaseURL = env.REACT_APP_DATABASE_URL;
-  const projectId = env.REACT_APP_PROJECT_ID;
-  const storageBucket = env.REACT_APP_STORAGE_BUCKET;
-  const messagingSenderId = env.REACT_APP_MESSAGING_SENDER_ID;
+  const apiKey            = process.env.REACT_APP_API_KEY;
+  const authDomain        = process.env.REACT_APP_AUTH_DOMAIN;
+  const databaseURL       = process.env.REACT_APP_DATABASE_URL;
+  const projectId         = process.env.REACT_APP_PROJECT_ID;
+  const storageBucket     = process.env.REACT_APP_STORAGE_BUCKET;
+  const messagingSenderId = process.env.REACT_APP_MESSAGING_SENDER_ID;
 
   var config = {
     apiKey,
@@ -51,6 +55,11 @@ const indexedDB = () => {
       db.createObjectStore('quote');
     }
   });
+}
+
+const isExpiredCache = (lastUpdate, ttl) => {
+  let now = Date.now();
+  return !lastUpdate || (now - new Date(lastUpdate) > ttl);
 }
 
 export {
