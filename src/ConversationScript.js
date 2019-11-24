@@ -15,6 +15,7 @@ const createConversationScript = (quotes, action, index, followUp) => {
 
   return (
     <ConversationScript
+      action={action}
       key={index}
       title={title}
       quotes={quotes}
@@ -85,7 +86,7 @@ class ConversationScript extends Component {
 
     return (
       <>
-        <h1>{title}</h1>
+        <h2>{title}</h2>
 
         <div>
           { viewQuoteButton }
