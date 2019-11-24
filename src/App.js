@@ -7,13 +7,13 @@ import { createConversationScript } from './ConversationScript';
 export default class App extends Component {
   constructor() {
     super();
-    this.state = {quotes: [], actions: ["showQuote"]};
+    this.state = {quotes: [], actions: ["showQuote"], loading: true};
     this.followUp = this.followUp.bind(this);
   }
 
   componentDidMount() {
     getQuotes({}, snapVal => {
-      this.setState({quotes: snapVal});
+      this.setState({quotes: snapVal, loading: false});
     });
   }
 
@@ -26,10 +26,13 @@ export default class App extends Component {
   }
 
   render() {
-    const { quotes, actions } = this.state;
+    const { quotes, actions, loading } = this.state;
     return (
       <>
-        { actions.map((action, index) => createConversationScript(quotes, action, index, this.followUp)) }
+        {
+          loading ? <h1>Loading...</h1> :
+          actions.map((action, index) => createConversationScript(quotes, action, index, this.followUp))
+        }
       </>
     );
   }
