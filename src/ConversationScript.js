@@ -3,15 +3,29 @@ import _ from 'lodash';
 
 const createConversationScript = (quotes, action, index, followUp) => {
   const actionTitles = {
-    "showQuote": "Click to see the quote",
-    "showQuoteDislikeFeedback": "Oh! This one you may like",
-    "showQuoteLikeFeedback": "You may also like this one"
+    "showQuote": ["Click to see the quote"],
+    "showQuoteDislikeFeedback": ["Oh! This one you may like"],
+    "showQuoteLikeFeedback": ["You may also like this one"]
   }
 
-  const title = actionTitles[action];
+  const title = actionTitles[action][0];
 
-  // only show view quote button for showQuotes action
+  // FIXME please -- no more if else
   const withViewQuoteButton = action === "showQuote";
+  let followUpAction;
+
+  // FIXME please -- no more if else
+  if (action === "showQuoteLikeFeedback") {
+    followUpAction = {
+      more: () => followUp("showQuoteLikeFeedback"),
+      less: () => followUp("showQuoteDislikeFeedback")
+    }
+  } else {
+    followUpAction = {
+      like: () => followUp("showQuoteLikeFeedback"),
+      dislike: () => followUp("showQuoteDislikeFeedback")
+    }
+  }
 
   return (
     <ConversationScript
@@ -20,10 +34,7 @@ const createConversationScript = (quotes, action, index, followUp) => {
       title={title}
       quotes={quotes}
       withViewQuoteButton={withViewQuoteButton}
-      followUp={{
-        like: () => followUp("showQuoteLikeFeedback"),
-        dislike: () => followUp("showQuoteDislikeFeedback")
-      }}
+      followUp={followUpAction}
     ></ConversationScript>
   )
 }
@@ -33,19 +44,9 @@ class ConversationScript extends Component {
     super();
     this.state = {
       showQuoteButtonEnabled: true,
-      displayFeedback: false
+      displayFeedback: false,
+      feedbackDisable: false
     }
-
-    this.feedbackYes = this.feedbackYes.bind(this);
-    this.feedbackNo = this.feedbackNo.bind(this);
-  }
-
-  feedbackYes() {
-    this.props.followUp.like();
-  }
-
-  feedbackNo() {
-    this.props.followUp.dislike();
   }
 
   componentDidMount() {
@@ -61,9 +62,23 @@ class ConversationScript extends Component {
   }
 
   render() {
-    const {quotes, title, withViewQuoteButton} = this.props;
-    const {displayQuote, displayFeedback, showQuoteButtonEnabled} = this.state;
+    const {quotes, title, withViewQuoteButton, followUp} = this.props;
+    const {displayQuote, displayFeedback, showQuoteButtonEnabled, feedbackDisable} = this.state;
     let viewQuoteButton;
+
+    const followUpElements = Object.entries(followUp).map(([action, actionFunction]) => {
+      return (
+        <>
+          <button onClick={() => {
+              this.setState({feedbackDisable: true});
+              actionFunction();
+            }}
+            key={action}
+            disabled={feedbackDisable}
+          >{action}</button>
+        </>
+      )
+    });
 
     if (withViewQuoteButton) {
       viewQuoteButton = (
@@ -92,45 +107,11 @@ class ConversationScript extends Component {
           { viewQuoteButton }
         </div>
 
-        {
-          displayQuote && <p>{displayQuote.body}</p>
-        }
-
-        {
-          displayFeedback && (
-            <Feedback
-              feedbackYes={this.feedbackYes}
-              feedbackNo={this.feedbackNo}
-            ></Feedback>
-          )
-        }
+        { displayQuote && <p>{displayQuote.body}</p> }
+        { displayFeedback && followUpElements }
       </>
     );
   }
-}
-
-const Feedback = (props) => {
-  const [disable, setDisable] = useState(false);
-
-  return (
-    <>
-      <h3>Do you like it?</h3>
-
-      <button onClick={() => {
-          setDisable(true);
-          props.feedbackYes();
-        }}
-        disabled={disable}
-      >yes</button>
-
-      <button onClick={() => {
-          setDisable(true);
-          props.feedbackNo()
-        }}
-        disabled={disable}
-      >no</button>
-    </>
-  )
 }
 
 export { ConversationScript, createConversationScript };
