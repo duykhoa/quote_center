@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { getQuotes } from './firebase_api/index';
 import 'normalize.css/normalize.css';
-import { createConversationScript } from './ConversationScript';
+import createConversationScript from './createConversationScript';
 
 export default class App extends Component {
   constructor() {
