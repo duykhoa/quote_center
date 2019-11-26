@@ -22,14 +22,14 @@ const schema = [
   {
     name: "showQuoteDislikeFeedback",
     description: "Show a quote after dislike feedback",
-    message: "Oh! This one you may like",
-    action: "displayQuote",
+    message: "Too bad, you don't like it",
+    action: "Noop",
     followUp: {
-      type: "radio",
+      type: "button",
       options: [
         {
-          label: "1",
-          action: "debugQuote"
+          label: "Terminate me",
+          action: "endOfProgram"
         }
       ]
     }
@@ -43,9 +43,28 @@ const schema = [
       type: "radio",
       options: [
         {
-          label: "like is the only choice haha",
+          label: "see my next quote",
           action: "showQuoteLikeFeedback"
+        },
+        {
+          label: "see more quotes",
+          action: "show3Quotes"
         }
+      ]
+    }
+  },
+  {
+    name: "show3Quotes",
+    description: "Show 3 quotes",
+    message: "Few more quotes for the day",
+    action: "displayQuote",
+    followUp: {
+      type: "button",
+      options: [
+        {
+          label: "That's it! Bye!",
+          action: "endOfProgram"
+        },
       ]
     }
   },

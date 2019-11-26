@@ -9,25 +9,23 @@ class ConversationScript extends Component {
     this.state = {
       showQuoteButtonEnabled: true,
       displayFeedback: false,
-      feedbackDisable: false
+      feedbackDisable: false,
+      displayQuotes: []
     }
   }
 
   componentDidMount() {
-    const {quotes, withViewQuoteButtonText} = this.props;
-    const index = _.random(0, quotes.length);
-    const quote = quotes[index];
+    const {quotes, withViewQuoteButtonText, quoteLimit} = this.props;
 
     if (!withViewQuoteButtonText) {
-      const index = _.random(0, quotes.length);
-      const quote = quotes[index];
-      this.setState({ displayQuote: quote, displayFeedback: true });
+      const displayQuotes = _.sampleSize(quotes, quoteLimit);
+      this.setState({ displayQuotes: displayQuotes, displayFeedback: true });
     }
   }
 
   render() {
-    const { quotes, title, withViewQuoteButtonText, followUp, followUpActions } = this.props;
-    const { displayQuote, displayFeedback, showQuoteButtonEnabled, feedbackDisable } = this.state;
+    const { quoteAction, quotes, quoteLimit, title, withViewQuoteButtonText, followUp, followUpActions } = this.props;
+    const { displayQuotes, displayFeedback, showQuoteButtonEnabled, feedbackDisable } = this.state;
     let viewQuoteButton;
 
     if (withViewQuoteButtonText) {
@@ -35,11 +33,10 @@ class ConversationScript extends Component {
         <button
           disabled={!showQuoteButtonEnabled}
           onClick={e => {
-            const index = _.random(0, quotes.length);
-            const quote = quotes[index];
+            const displayQuotes = _.sampleSize(quotes, quoteLimit);
 
             this.setState({
-              displayQuote: quote,
+              displayQuotes: displayQuotes,
               displayFeedback: true,
               showQuoteButtonEnabled: false
             });
@@ -57,12 +54,15 @@ class ConversationScript extends Component {
           { viewQuoteButton }
         </div>
 
-        { displayQuote && <p>{displayQuote.body}</p> }
+        { !_.isEmpty(displayQuotes) && quoteAction === "displayQuote" && (
+          displayQuotes.map((quote, index) => <p key={index}>{quote.body}</p>))
+        }
+
         { displayFeedback && (
             <Feedback
               followUpActions={followUpActions}
               actionHandler={ action => {
-                ActionCaller.call(action, followUp, displayQuote);
+                ActionCaller.call(action, followUp, displayQuotes);
               }}
             ></Feedback>
         )}

@@ -6,6 +6,13 @@ const createConversationScript = (quotes, action, index, followUp) => {
   let conversationScript = schema.find(node => node.name == action);
 
   const title = conversationScript.message;
+  const quoteAction = conversationScript.action;
+
+  let limit = 1;
+
+  if (action === "show3Quotes") {
+    limit = 3;
+  }
 
   let viewQuoteButton;
 
@@ -13,6 +20,8 @@ const createConversationScript = (quotes, action, index, followUp) => {
     <ConversationScript
       key={index}
       action={action}
+      quoteAction={quoteAction}
+      quoteLimit={limit}
       title={title}
       quotes={quotes}
       withViewQuoteButtonText={conversationScript.viewQuoteButtonText}

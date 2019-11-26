@@ -5,7 +5,7 @@ import { openDB } from 'idb';
 
 const getQuotes = async (options = {}, callback) => {
   const db = await indexedDB();
-  const ttl = 3600000;
+  const ttl = 86400000;
   const lastUpdate = await db.get('quote', 'lastUpdate');
 
   if (isExpiredCache(lastUpdate, ttl)) {
